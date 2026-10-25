@@ -80,7 +80,7 @@ tap_text "Serien" 390 && sleep 3
 shot 7_serien
 tap_text "Der Bergdoktor" && sleep 3
 shot 8_folgen
-adb shell input tap 540 640
+adb shell input tap 540 790
 sleep 25
 shot 9_folge
 adb shell input keyevent KEYCODE_BACK

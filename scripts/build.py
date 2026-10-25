@@ -341,10 +341,12 @@ NOFILM = re.compile(
     r'|kurzstrecke|& co\.|\bzoo\b|tierpark|leute heute|drehscheibe|hallo deutschland|kulturzeit|\bnano\b|landesschau'
     r'|hier und heute|kaffee oder tee|volle kanne|wir in bayern|riverboat|nachtcaf|kölner treff|zur sache|fastnacht'
     r'|karneval|fasching|narren|volksfest|umzug|aktenzeichen|wetten, dass|verstehen sie spaß|carmen nebel|silbereisen'
-    r'|zarrella|fest der|klein gegen groß|wer weiß|gefragt|quartett|küchenschlacht', I)
+    r'|zarrella|fest der|klein gegen groß|wer weiß|gefragt|quartett|küchenschlacht|strassenstars|\bspezial\b|masterclass'
+    r'|frontmen', I)
 DOC = re.compile(r'dokumentation|dokumentarfilm|dokudrama|\bdoku\b|doku-|-doku\b|dokuserie|dokureihe|reportage|terra x'
                  r'|universum|planet e|37 grad|37°|die story|exclusiv im ersten|\bre:|leschs kosmos|quarks|abenteuer erde'
-                 r'|expeditionen ins tierreich|erlebnis erde|länder - menschen - abenteuer|zdfinfo|history', I)
+                 r'|expeditionen ins tierreich|erlebnis erde|länder - menschen - abenteuer|zdfinfo|history|geschichte - '
+                 r'|entdeckung der welt|wissenschaft - |aktuelles und gesellschaft|kultur und pop', I)
 DOC_DESC = re.compile(r'dokumentation|dokumentarfilm|\bdoku\b|reportage|dokuserie|dokureihe', I)
 KRIMI = re.compile(
     r'tatort|polizeiruf|krimi|kommissar|wilsberg|ein starkes team|die toten vom|nord bei nordwest|friesland|helen dorn'
@@ -491,6 +493,7 @@ def mvw_records():
 def tidy_title(t, thema=''):
     t = (t or '').replace('"', "'")
     t = re.sub(r'\s*\((?:mit )?(?:Untertitel|UT)\)', '', t, flags=I)
+    t = re.sub(r'\s*\|\s*restauriert in HD', '', t, flags=I)
     t = SE_MARK.sub('', t)
     t = re.sub(r'\s*[-–|·]\s*(?:Der|Ein)\s+(?:Samstags|Sonntags|Montags|Dienstags|Mittwochs|Donnerstags|Freitags)krimi\b', '', t, flags=I)
     t = re.sub(r'\s*[-–]\s*Aus der Herzkino-Reihe.*$', '', t, flags=I)
@@ -585,6 +588,8 @@ def build_vod(records, logos):
     out = []
 
     def item(group, r, name):
+        if not name or name.lower() == group.split(' | ', 1)[1].lower():
+            return
         out.append(dict(group=group, name=name, logo=logos.get(r['sender'], ''), tvgid='', url=r['url'], opts=[]))
 
     def dedupe(rs, skip=()):
@@ -706,7 +711,8 @@ def write_m3u(path, entries):
         f.write('#EXTM3U\n')
         for e in entries:
             name = e['name'].replace('\n', ' ').replace('"', "'")
-            attrs = f'tvg-id="{e["tvgid"]}" tvg-name="{name}" tvg-logo="{e["logo"]}" group-title="{e["group"]}"'
+            tvg_name = f' tvg-name="{name}"' if ',' not in name else ''
+            attrs = f'tvg-id="{e["tvgid"]}"{tvg_name} tvg-logo="{e["logo"]}" group-title="{e["group"]}"'
             f.write(f'#EXTINF:-1 {attrs},{name}\n')
             for o in e.get('opts') or []:
                 f.write(o + '\n')

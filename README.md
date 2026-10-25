@@ -17,6 +17,8 @@ Die Liste wird jeden Tag automatisch neu gebaut. Abgelaufene Mediathek-Filme fli
 
 ## In der App einrichten
 
+Kostenlose App ohne Abo: **M3U IPTV** (Samsung-TV ab 2021 und Android).
+
 1. App öffnen und eine neue Playlist hinzufügen
 2. Typ **M3U-URL** wählen und den Link oben eintippen
 3. Speichern – fertig

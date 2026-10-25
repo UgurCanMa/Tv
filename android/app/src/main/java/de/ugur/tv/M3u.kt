@@ -5,15 +5,15 @@ data class Channel(val name: String, val group: String, val logo: String, val ur
 data class Group(val key: String, val title: String, val items: List<Channel>)
 
 enum class Section(val label: String, val prefixes: List<String>) {
-    FAVORITES("★ Favoriten", emptyList()),
-    RECENT("Zuletzt", emptyList()),
     LIVE("Live-TV", listOf("DE |", "EN |")),
     TURKISH("Türkçe", listOf("TR |")),
     FILME("Filme", listOf("FILME |")),
-    KRIMIS("Krimis", listOf("KRIMIS |")),
     SERIEN("Serien", listOf("SERIEN |")),
+    KRIMIS("Krimis", listOf("KRIMIS |")),
     DOKUS("Dokus", listOf("DOKUS |")),
     KINDER("Kinder", listOf("KINDER |")),
+    FAVORITES("★ Favoriten", emptyList()),
+    RECENT("Zuletzt", emptyList()),
 }
 
 object M3u {

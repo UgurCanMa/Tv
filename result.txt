@@ -1,0 +1,13 @@
+OK: Nachrichten & Doku
+OK: Suchen
+OK: DW (Englisch)
+OK: Filme
+OK: A–C
+OK: Serien
+OK: Der Bergdoktor
+OK: Türkçe
+OK: Hinzufügen
+OK: Hinzufügen
+OK: DW-Stream
+OK: Schweiz
+FATAL: 0

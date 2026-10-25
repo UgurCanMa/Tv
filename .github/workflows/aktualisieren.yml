@@ -1,0 +1,43 @@
+name: Liste aktualisieren
+
+on:
+  schedule:
+    - cron: '23 3 * * *'   # jeden Tag gegen 4–5 Uhr deutscher Zeit
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/aktualisieren.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aktualisieren
+  cancel-in-progress: false
+
+jobs:
+  aktualisieren:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Liste bauen
+        env:
+          DEBUG: '1'
+        run: python3 scripts/build.py
+
+      - name: Liste speichern
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then echo 'Keine Änderungen'; exit 0; fi
+          git commit -m "Liste aktualisiert ($(date -u +%Y-%m-%d))"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 10
+          done
+          exit 1

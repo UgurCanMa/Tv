@@ -1,0 +1,34 @@
+Stand: 2026-10-25 15:08 UTC
+Live: 371 Sender (neu gebaut)
+Filme & Co.: 0 Einträge (alte Liste behalten; neu nur 0)
+
+Kategorien:
+   27  DE | ARD & ZDF
+   15  DE | Film-Sender
+   41  DE | Serien-Sender
+   24  DE | Nachrichten & Doku
+   11  DE | Sport
+    9  DE | Kinder
+   20  DE | Musik
+   16  TR | Hauptsender
+   16  TR | Nachrichten
+    5  TR | Sport
+    9  TR | Kinder
+   13  TR | Müzik
+    2  TR | Belgesel
+   30  EN | Film-Sender (Englisch)
+   89  DE | Regional
+   30  TR | Regional
+    8  DE | Religion
+    6  TR | Din
+
+Meldungen:
+Filmliste https://liste.mediathekview.de/Filmliste-akt.xz: https://liste.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste https://verteiler1.mediathekview.de/Filmliste-akt.xz: https://verteiler1.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste https://verteiler2.mediathekview.de/Filmliste-akt.xz: https://verteiler2.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste https://verteiler3.mediathekview.de/Filmliste-akt.xz: https://verteiler3.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste https://verteiler4.mediathekview.de/Filmliste-akt.xz: https://verteiler4.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste https://verteiler5.mediathekview.de/Filmliste-akt.xz: https://verteiler5.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste https://verteiler6.mediathekview.de/Filmliste-akt.xz: https://verteiler6.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
+Filmliste nicht verfügbar (https://verteiler6.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>), versuche MediathekViewWeb …
+MediathekViewWeb: Fehler – https://mediathekviewweb.de/api/query: <urlopen error Tunnel connection failed: 403 Forbidden>

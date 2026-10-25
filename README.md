@@ -23,6 +23,10 @@ Die Liste ist schon eingebaut – nur installieren und schauen:
 Live-TV, Filme, Krimis, Serien, Dokus, Suche, Favoriten (lange drücken) und „Weiterschauen“.
 Läuft auf Android-Handys und auf dem Fire TV Stick.
 
+**Erweiterbar:** Unter „＋ Listen“ weitere Listen per Link (M3U, einzelner Stream oder Textdatei mit Links)
+oder als Datei vom Handy hinzufügen – oder einen Link aus dem Browser an „Ugur TV“ teilen.
+Jede Liste bekommt einen eigenen Reiter; die Suche durchsucht alle Listen. Eigene Listen bleiben nur auf dem Gerät.
+
 Die Senderliste aktualisiert sich in der App von selbst. Falls es mal eine neue App-Version gibt:
 alte Version erst deinstallieren, dann die neue installieren (die App wird bei jedem Bau neu signiert,
 weil kein Signierschlüssel öffentlich im Repo liegt).

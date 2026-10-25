@@ -7,6 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import android.util.LruCache
 import android.widget.ImageView
+import java.io.ByteArrayOutputStream
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
@@ -18,6 +19,47 @@ const val PLAYLIST_URL = "https://raw.githubusercontent.com/UgurCanMa/Tv/main/tv
 const val USER_AGENT = "Mozilla/5.0 (Linux; Android) UgurTV/1.0"
 
 object Net {
+    private val mediaExtensions = listOf(".mp4", ".mkv", ".ts", ".avi", ".mov", ".webm", ".mp3", ".aac", ".m4v", ".flv")
+
+    /**
+     * Lädt eine eigene Liste. Gibt null zurück, wenn der Link selbst ein Video- oder Audiostream ist
+     * (dann wird er als einzelner Sender behandelt).
+     */
+    fun fetchList(url: String, maxBytes: Int = 40 * 1024 * 1024): String? {
+        val path = url.lowercase().substringBefore('?').substringBefore('|')
+        if (mediaExtensions.any { path.endsWith(it) }) return null
+        val c = URL(url).openConnection() as HttpURLConnection
+        c.connectTimeout = 15_000
+        c.readTimeout = 30_000
+        c.useCaches = false
+        c.instanceFollowRedirects = true
+        c.setRequestProperty("User-Agent", USER_AGENT)
+        try {
+            val code = c.responseCode
+            if (code !in 200..299) throw IOException("HTTP $code")
+            val type = (c.contentType ?: "").lowercase()
+            if (type.startsWith("video/") || type.contains("mp2t") || (type.startsWith("audio/") && !type.contains("mpegurl"))) {
+                return null
+            }
+            val buffer = ByteArrayOutputStream()
+            c.inputStream.use { input ->
+                val chunk = ByteArray(64 * 1024)
+                while (true) {
+                    val n = input.read(chunk)
+                    if (n < 0) break
+                    buffer.write(chunk, 0, n)
+                    if (buffer.size() > maxBytes) throw IOException("Liste ist zu groß")
+                }
+            }
+            val bytes = buffer.toByteArray()
+            val head = String(bytes, 0, minOf(bytes.size, 2048), Charsets.ISO_8859_1)
+            if (head.indexOf('\u0000') >= 0) return null
+            return String(bytes, Charsets.UTF_8)
+        } finally {
+            c.disconnect()
+        }
+    }
+
     fun download(url: String): String {
         val c = URL(url).openConnection() as HttpURLConnection
         c.connectTimeout = 15_000

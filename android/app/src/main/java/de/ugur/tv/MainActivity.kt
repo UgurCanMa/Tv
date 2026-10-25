@@ -26,19 +26,32 @@ import java.util.Locale
 import java.util.concurrent.Executors
 
 class MainActivity : AppCompatActivity() {
+
+    private sealed class TabKey {
+        data class Sec(val section: Section) : TabKey()
+        data class Src(val id: String) : TabKey()
+        object Manage : TabKey()
+    }
+
     private lateinit var store: Store
     private lateinit var list: RecyclerView
     private lateinit var adapter: RowAdapter
     private lateinit var search: EditText
     private lateinit var status: TextView
     private lateinit var tabs: LinearLayout
-    private val tabViews = LinkedHashMap<Section, TextView>()
+    private val tabViews = LinkedHashMap<TabKey, TextView>()
     private val main = Handler(Looper.getMainLooper())
     private val worker = Executors.newSingleThreadExecutor()
 
-    private var all: List<Channel> = emptyList()
+    private var mainList: List<Channel> = emptyList()
     private var sections: Map<Section, List<Group>> = emptyMap()
-    private var section = Section.LIVE
+    private var sources: List<Source> = emptyList()
+    private var custom: Map<String, List<Channel>> = emptyMap()
+    private var customGroups: Map<String, List<Group>> = emptyMap()
+    private var customErrors: Map<String, String> = emptyMap()
+    private var sourcesVersion = -1
+
+    private var current: TabKey = TabKey.Sec(Section.LIVE)
     private var openGroup: String? = null
     private var groupScroll = 0
     private var query = ""
@@ -64,6 +77,8 @@ class MainActivity : AppCompatActivity() {
         list.itemAnimator = null
         list.adapter = adapter
 
+        sourcesVersion = store.sourcesVersion()
+        sources = store.sources()
         buildTabs()
         findViewById<View>(R.id.refresh).setOnClickListener { refresh() }
 
@@ -99,14 +114,27 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        loadCacheThenRefresh()
+        startLoading()
     }
 
     override fun onResume() {
         super.onResume()
-        if (section == Section.RECENT || section == Section.FAVORITES || openGroup != null) {
+        val version = store.sourcesVersion()
+        if (version != sourcesVersion) {
+            sourcesVersion = version
+            sources = store.sources()
+            val cur = current
+            if (cur is TabKey.Src && sources.none { it.id == cur.id }) current = TabKey.Sec(Section.LIVE)
+            buildTabs()
+            render()
+            worker.execute {
+                loadCustom(fromNetwork = false)
+                loadCustom(fromNetwork = true)
+            }
+        } else if (current == TabKey.Sec(Section.RECENT) || current == TabKey.Sec(Section.FAVORITES)) {
+            render()
+        } else {
             adapter.notifyDataSetChanged()
-            if (section == Section.RECENT && query.isEmpty()) render()
         }
     }
 
@@ -117,7 +145,7 @@ class MainActivity : AppCompatActivity() {
 
     // ------------------------------------------------------------------ Laden
 
-    private fun loadCacheThenRefresh() {
+    private fun startLoading() {
         loading = true
         render()
         worker.execute {
@@ -126,20 +154,25 @@ class MainActivity : AppCompatActivity() {
                 val parsed = M3u.parse(cached)
                 val secs = M3u.bySection(parsed)
                 val time = store.cacheTime()
-                main.post { if (!isDestroyed) setData(parsed, secs, time) }
+                main.post { if (!isDestroyed) setMain(parsed, secs, time) }
             }
-            fetch()
+            loadCustom(fromNetwork = false)
+            fetchMain()
+            loadCustom(fromNetwork = true)
         }
     }
 
     private fun refresh() {
         loading = true
         Toast.makeText(this, R.string.refreshing, Toast.LENGTH_SHORT).show()
-        worker.execute { fetch() }
+        worker.execute {
+            fetchMain()
+            loadCustom(fromNetwork = true)
+        }
     }
 
     /** Läuft im Hintergrund. */
-    private fun fetch() {
+    private fun fetchMain() {
         try {
             val text = Net.download(PLAYLIST_URL)
             val parsed = M3u.parse(text)
@@ -150,14 +183,14 @@ class MainActivity : AppCompatActivity() {
             main.post {
                 if (!isDestroyed) {
                     loading = false
-                    setData(parsed, secs, now)
+                    setMain(parsed, secs, now)
                 }
             }
         } catch (e: Exception) {
             main.post {
                 if (!isDestroyed) {
                     loading = false
-                    if (all.isEmpty()) {
+                    if (mainList.isEmpty()) {
                         status.text = getString(R.string.offline)
                         status.visibility = View.VISIBLE
                         render()
@@ -169,11 +202,40 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setData(channels: List<Channel>, secs: Map<Section, List<Group>>, time: Long) {
-        all = channels
+    /** Lädt die eigenen Listen (erst aus dem Speicher, dann aus dem Netz). Läuft im Hintergrund. */
+    private fun loadCustom(fromNetwork: Boolean) {
+        val srcs = store.sources()
+        val result = LinkedHashMap<String, List<Channel>>()
+        val errors = HashMap<String, String>()
+        for (s in srcs) {
+            var text = store.readSourceCache(s.id)
+            if (fromNetwork && !s.isFile) {
+                try {
+                    val fresh = Net.fetchList(s.url)
+                    text = fresh ?: Lists.STREAM_MARKER
+                    store.writeSourceCache(s.id, text)
+                } catch (e: Exception) {
+                    if (text == null) errors[s.id] = e.message ?: e.javaClass.simpleName
+                }
+            }
+            result[s.id] = Lists.interpret(s, text)
+            if (fromNetwork && text != null && result[s.id].isNullOrEmpty()) errors[s.id] = getString(R.string.list_empty)
+        }
+        main.post {
+            if (!isDestroyed) {
+                sources = srcs
+                custom = result
+                customGroups = result.mapValues { M3u.groups(it.value) }
+                if (fromNetwork) customErrors = errors
+                if (tabViews.keys.filterIsInstance<TabKey.Src>().map { it.id } != srcs.map { it.id }) buildTabs()
+                render()
+            }
+        }
+    }
+
+    private fun setMain(channels: List<Channel>, secs: Map<Section, List<Group>>, time: Long) {
+        mainList = channels
         sections = secs
-        val og = openGroup
-        if (og != null && secs[section]?.any { it.key == og } != true) openGroup = null
         val date = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT, Locale.GERMANY).format(Date(time))
         status.text = getString(R.string.status, String.format(Locale.GERMANY, "%,d", channels.size), date)
         status.visibility = View.VISIBLE
@@ -185,26 +247,40 @@ class MainActivity : AppCompatActivity() {
     private fun maybeAutoplay() {
         val wanted = intent?.getStringExtra("autoplay")
         if (autoplayDone || wanted.isNullOrEmpty()) return
-        val ch = all.firstOrNull { it.name.contains(wanted, ignoreCase = true) } ?: return
+        val ch = mainList.firstOrNull { it.name.contains(wanted, ignoreCase = true) } ?: return
         autoplayDone = true
         play(listOf(ch), 0)
     }
 
-    // ------------------------------------------------------------------ Anzeige
+    // ------------------------------------------------------------------ Reiter
 
     private fun buildTabs() {
+        tabs.removeAllViews()
+        tabViews.clear()
+        val keys = ArrayList<Pair<TabKey, String>>()
         for (s in Section.values()) {
+            if (s != Section.FAVORITES && s != Section.RECENT) keys.add(TabKey.Sec(s) to s.label)
+        }
+        for (src in sources) keys.add(TabKey.Src(src.id) to src.name)
+        keys.add(TabKey.Sec(Section.FAVORITES) to Section.FAVORITES.label)
+        keys.add(TabKey.Sec(Section.RECENT) to Section.RECENT.label)
+        keys.add(TabKey.Manage to getString(R.string.manage_tab))
+        for ((key, label) in keys) {
             val tab = layoutInflater.inflate(R.layout.tab, tabs, false) as TextView
-            tab.text = s.label
-            tab.setOnClickListener { selectSection(s) }
+            tab.text = label
+            tab.setOnClickListener { selectTab(key) }
             tabs.addView(tab)
-            tabViews[s] = tab
+            tabViews[key] = tab
         }
         updateTabs()
     }
 
-    private fun selectSection(s: Section) {
-        section = s
+    private fun selectTab(key: TabKey) {
+        if (key == TabKey.Manage) {
+            startActivity(Intent(this, SourcesActivity::class.java))
+            return
+        }
+        current = key
         openGroup = null
         updateTabs()
         if (query.isNotEmpty()) search.setText("") else render()
@@ -212,15 +288,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateTabs() {
-        for ((s, view) in tabViews) view.isSelected = s == section
+        for ((key, view) in tabViews) view.isSelected = key == current
     }
+
+    // ------------------------------------------------------------------ Anzeige
 
     private fun render() {
         val rows = ArrayList<Row>()
         val q = query.trim()
+        val key = current
         if (q.length >= 2) {
             val needle = q.lowercase(Locale.GERMANY)
-            val hits = all.asSequence()
+            val hits = (mainList.asSequence() + custom.values.asSequence().flatten())
                 .filter { it.name.lowercase(Locale.GERMANY).contains(needle) }
                 .distinctBy { it.url }
                 .take(MAX_HITS)
@@ -232,31 +311,35 @@ class MainActivity : AppCompatActivity() {
                 )
             )
             hits.mapTo(rows) { Row.Item(it) }
+        } else if (key == TabKey.Sec(Section.FAVORITES)) {
+            val fav = store.favorites()
+            if (fav.isEmpty()) rows.add(Row.Info(getString(R.string.no_favorites))) else fav.mapTo(rows) { Row.Item(it) }
+        } else if (key == TabKey.Sec(Section.RECENT)) {
+            val rec = store.recents()
+            if (rec.isEmpty()) rows.add(Row.Info(getString(R.string.no_recents))) else rec.mapTo(rows) { Row.Item(it) }
         } else {
-            when (section) {
-                Section.FAVORITES -> {
-                    val fav = store.favorites()
-                    if (fav.isEmpty()) rows.add(Row.Info(getString(R.string.no_favorites)))
-                    else fav.mapTo(rows) { Row.Item(it) }
+            val label: String
+            val groups: List<Group>
+            var error: String? = null
+            if (key is TabKey.Src) {
+                groups = customGroups[key.id].orEmpty()
+                label = sources.firstOrNull { it.id == key.id }?.name.orEmpty()
+                error = customErrors[key.id]
+            } else {
+                val section = (key as? TabKey.Sec)?.section ?: Section.LIVE
+                groups = sections[section].orEmpty()
+                label = section.label
+            }
+            val open = groups.firstOrNull { it.key == openGroup }
+            when {
+                open != null -> {
+                    rows.add(Row.Back("$label  ›  ${open.title}"))
+                    open.items.mapTo(rows) { Row.Item(it) }
                 }
-                Section.RECENT -> {
-                    val rec = store.recents()
-                    if (rec.isEmpty()) rows.add(Row.Info(getString(R.string.no_recents)))
-                    else rec.mapTo(rows) { Row.Item(it) }
-                }
-                else -> {
-                    val groups = sections[section].orEmpty()
-                    val open = groups.firstOrNull { it.key == openGroup }
-                    when {
-                        open != null -> {
-                            rows.add(Row.Back(section.label + "  ›  " + open.title))
-                            open.items.mapTo(rows) { Row.Item(it) }
-                        }
-                        groups.isEmpty() ->
-                            rows.add(Row.Info(getString(if (loading) R.string.loading else R.string.empty)))
-                        else -> groups.mapTo(rows) { Row.GroupRow(it.key, it.title, it.items.size) }
-                    }
-                }
+                groups.size == 1 -> groups[0].items.mapTo(rows) { Row.Item(it) }
+                groups.isEmpty() && error != null -> rows.add(Row.Info(getString(R.string.list_error, error)))
+                groups.isEmpty() -> rows.add(Row.Info(getString(if (loading || key is TabKey.Src) R.string.loading else R.string.empty)))
+                else -> groups.mapTo(rows) { Row.GroupRow(it.key, it.title, it.items.size) }
             }
         }
         adapter.submit(rows)
@@ -293,7 +376,7 @@ class MainActivity : AppCompatActivity() {
     private fun onItemLongClick(ch: Channel) {
         val added = store.toggleFavorite(ch)
         Toast.makeText(this, if (added) R.string.fav_added else R.string.fav_removed, Toast.LENGTH_SHORT).show()
-        if (section == Section.FAVORITES && query.isEmpty()) render() else adapter.notifyDataSetChanged()
+        if (current == TabKey.Sec(Section.FAVORITES) && query.isEmpty()) render() else adapter.notifyDataSetChanged()
     }
 
     private fun play(items: List<Channel>, index: Int) {

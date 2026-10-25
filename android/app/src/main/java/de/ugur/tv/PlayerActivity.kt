@@ -21,6 +21,7 @@ import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.datasource.DefaultDataSource
 import androidx.media3.datasource.DefaultHttpDataSource
+import androidx.media3.datasource.ResolvingDataSource
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.ui.PlayerView
@@ -44,6 +45,9 @@ class PlayerActivity : AppCompatActivity() {
     }
     private var currentIndex = 0
     private var lastDuration = 0L
+
+    @Volatile
+    private var currentHeaders: Map<String, String> = emptyMap()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -98,17 +102,23 @@ class PlayerActivity : AppCompatActivity() {
     private fun initPlayer() {
         if (player != null) return
         val http = DefaultHttpDataSource.Factory()
-            .setUserAgent(USER_AGENT)
+            .setDefaultRequestProperties(mapOf("User-Agent" to USER_AGENT))
             .setAllowCrossProtocolRedirects(true)
             .setConnectTimeoutMs(15_000)
             .setReadTimeoutMs(20_000)
+        // Manche Listen verlangen eigene Header (User-Agent, Referer) – die hängen wir an jede Anfrage.
+        val withHeaders = ResolvingDataSource.Factory(http) { spec ->
+            val extra = currentHeaders
+            if (extra.isEmpty()) spec else spec.withAdditionalHeaders(extra)
+        }
         val p = ExoPlayer.Builder(this)
-            .setMediaSourceFactory(DefaultMediaSourceFactory(DefaultDataSource.Factory(this, http)))
+            .setMediaSourceFactory(DefaultMediaSourceFactory(DefaultDataSource.Factory(this, withHeaders)))
             .build()
         player = p
         playerView.player = p
         p.addListener(listener)
         val start = currentIndex.coerceIn(0, queue.size - 1)
+        currentHeaders = queue[start].headers
         val resume = store.position(queue[start].url)
         p.setMediaItems(queue.map { mediaItem(it) }, start, if (resume > 0) resume else C.TIME_UNSET)
         p.playWhenReady = true
@@ -188,6 +198,7 @@ class PlayerActivity : AppCompatActivity() {
     private fun onNewItem(idx: Int) {
         currentIndex = idx
         val ch = queue.getOrNull(idx) ?: return
+        currentHeaders = ch.headers
         store.addRecent(ch)
         error.visibility = View.GONE
         title.text = if (queue.size > 1) "${ch.name}   (${idx + 1}/${queue.size})" else ch.name

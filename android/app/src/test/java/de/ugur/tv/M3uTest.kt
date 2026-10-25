@@ -57,4 +57,49 @@ class M3uTest {
         assertTrue(list.all { it.url.startsWith("http") })
         println("Echte Liste: ${list.size} Einträge, ${sections.values.sumOf { it.size }} Gruppen")
     }
+
+    @Test
+    fun readsHeadersAndExtGrp() {
+        val text = """
+            #EXTM3U
+            #EXTINF:-1,Sender A
+            #EXTGRP:Nachrichten
+            #EXTVLCOPT:http-user-agent=Mozilla/5.0 Test
+            #EXTVLCOPT:http-referrer=https://example.org/
+            https://a.example.org/live.m3u8
+            #EXTINF:-1 group-title="Sport",Sender B
+            https://b.example.org/live.m3u8|User-Agent=Foo%2F1.0&Referer=https://ref.example/
+            #EXTINF:-1 group-title="Sport",Sender C
+            #EXTHTTP:{"User-Agent":"Bar/2.0","Origin":"https://o.example"}
+            https://c.example.org/live.m3u8
+            #EXTINF:-1,Sender D
+            https://d.example.org/live.m3u8
+        """.trimIndent()
+        val list = M3u.parse(text)
+        assertEquals(4, list.size)
+        assertEquals("Nachrichten", list[0].group)
+        assertEquals("Mozilla/5.0 Test", list[0].headers["User-Agent"])
+        assertEquals("https://example.org/", list[0].headers["Referer"])
+        assertEquals("https://b.example.org/live.m3u8", list[1].url)
+        assertEquals("Foo/1.0", list[1].headers["User-Agent"])
+        assertEquals("https://ref.example/", list[1].headers["Referer"])
+        assertEquals("Bar/2.0", list[2].headers["User-Agent"])
+        assertEquals("https://o.example", list[2].headers["Origin"])
+        assertTrue(list[3].headers.isEmpty())
+        assertEquals("Sonstiges", list[3].group)
+        assertEquals(listOf("Nachrichten", "Sport", "Sonstiges"), M3u.groups(list).map { it.title })
+    }
+
+    @Test
+    fun interpretsSources() {
+        val source = Source("s1", "Mein Stream", "https://x.example/index.m3u8")
+        val hls = "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=800000\nlow/index.m3u8\n"
+        assertEquals(listOf("https://x.example/index.m3u8"), Lists.interpret(source, hls).map { it.url })
+        assertEquals(1, Lists.interpret(source, Lists.STREAM_MARKER).size)
+        val plain = "https://a.example/1.m3u8\n\nhttps://a.example/2.m3u8\nkein Link"
+        val items = Lists.interpret(Source("s2", "Text", ""), plain)
+        assertEquals(listOf("Text 1", "Text 2"), items.map { it.name })
+        assertTrue(Lists.interpret(Source("s3", "Leer", ""), "nichts hier").isEmpty())
+        assertTrue(Lists.interpret(source, null).isEmpty())
+    }
 }

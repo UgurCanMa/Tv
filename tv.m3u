@@ -386,35 +386,35 @@ https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 https://tv-e-okul02.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-name="Zarok TV" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="TR | Kinder",Zarok TV
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Müzik" tvg-logo="https://i.imgur.com/JgUzRH8.png" group-title="TR | Müzik",TRT Müzik
+#EXTINF:-1 tvg-id="TRTMuzik.tr@SD" tvg-name="TRT Müzik" tvg-logo="https://i.imgur.com/JgUzRH8.png" group-title="TR | Musik",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="Kral Pop TV" tvg-logo="https://i.imgur.com/ch365lh.png" group-title="TR | Müzik",Kral Pop TV
+#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="Kral Pop TV" tvg-logo="https://i.imgur.com/ch365lh.png" group-title="TR | Musik",Kral Pop TV
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="TR | Müzik",Power TV
+#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="TR | Musik",Power TV
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" tvg-name="PowerTürk Taptaze" tvg-logo="https://i.imgur.com/a5nW3HU.png" group-title="TR | Müzik",PowerTürk Taptaze
+#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr@SD" tvg-name="PowerTürk Taptaze" tvg-logo="https://i.imgur.com/a5nW3HU.png" group-title="TR | Musik",PowerTürk Taptaze
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1TV.tr@SD" tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="TR | Müzik",Number 1 TV
+#EXTINF:-1 tvg-id="Number1TV.tr@SD" tvg-name="Number 1 TV" tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="TR | Musik",Number 1 TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" tvg-logo="https://i.imgur.com/vJ8VaZi.png" group-title="TR | Müzik",Dream Türk
+#EXTINF:-1 tvg-id="DreamTurk.tr@SD" tvg-name="Dream Türk" tvg-logo="https://i.imgur.com/vJ8VaZi.png" group-title="TR | Musik",Dream Türk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-name="Number 1 Aşk" tvg-logo="https://i.imgur.com/slwbux7.png" group-title="TR | Müzik",Number 1 Aşk
+#EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-name="Number 1 Aşk" tvg-logo="https://i.imgur.com/slwbux7.png" group-title="TR | Musik",Number 1 Aşk
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Damar.tr@SD" tvg-name="Number 1 Damar" tvg-logo="https://i.imgur.com/rYtbAGZ.png" group-title="TR | Müzik",Number 1 Damar
+#EXTINF:-1 tvg-id="Number1Damar.tr@SD" tvg-name="Number 1 Damar" tvg-logo="https://i.imgur.com/rYtbAGZ.png" group-title="TR | Musik",Number 1 Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Dance.tr@SD" tvg-name="Number 1 Dance" tvg-logo="https://i.imgur.com/ZM4PSyq.png" group-title="TR | Müzik",Number 1 Dance
+#EXTINF:-1 tvg-id="Number1Dance.tr@SD" tvg-name="Number 1 Dance" tvg-logo="https://i.imgur.com/ZM4PSyq.png" group-title="TR | Musik",Number 1 Dance
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="Power Dance" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="TR | Müzik",Power Dance
+#EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="Power Dance" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="TR | Musik",Power Dance
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerLove.tr@SD" tvg-name="Power Love" tvg-logo="https://i.imgur.com/0RzUswR.png" group-title="TR | Müzik",Power Love
+#EXTINF:-1 tvg-id="PowerLove.tr@SD" tvg-name="Power Love" tvg-logo="https://i.imgur.com/0RzUswR.png" group-title="TR | Musik",Power Love
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkAkustik.tr@SD" tvg-name="PowerTürk Akustik" tvg-logo="https://i.imgur.com/driabBO.png" group-title="TR | Müzik",PowerTürk Akustik
+#EXTINF:-1 tvg-id="PowerTurkAkustik.tr@SD" tvg-name="PowerTürk Akustik" tvg-logo="https://i.imgur.com/driabBO.png" group-title="TR | Musik",PowerTürk Akustik
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkSlow.tr@SD" tvg-name="PowerTürk Slow" tvg-logo="https://i.imgur.com/tQSoQXW.png" group-title="TR | Müzik",PowerTürk Slow
+#EXTINF:-1 tvg-id="PowerTurkSlow.tr@SD" tvg-name="PowerTürk Slow" tvg-logo="https://i.imgur.com/tQSoQXW.png" group-title="TR | Musik",PowerTürk Slow
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" group-title="TR | Belgesel",GZT
+#EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" group-title="TR | Doku",GZT
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
-#EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" tvg-name="TGRT Belgesel" tvg-logo="https://i.imgur.com/VwWTnf0.png" group-title="TR | Belgesel",TGRT Belgesel
+#EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" tvg-name="TGRT Belgesel" tvg-logo="https://i.imgur.com/VwWTnf0.png" group-title="TR | Doku",TGRT Belgesel
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="00sReplay.us@SD" tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" group-title="EN | Film-Sender (Englisch)",00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -11010,6 +11010,8 @@ https://nrodlzdf-a.akamaihd.net/none/tivi/18/06/180619_die_sechs_schwaene_mae/7/
 https://nrodlzdf-a.akamaihd.net/none/tivi/14/12/141219_der_eisenhans_mae/25/141219_der_eisenhans_mae_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Das kalte Herz" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="KINDER | Filme & Märchen",Das kalte Herz
 https://nrodlzdf-a.akamaihd.net/none/tivi/14/12/141216_das_kalte_herz_mae/10/141216_das_kalte_herz_mae_a1a2_3360k_p36v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Leben anderswo – 360° Reportage - Mongolei: Der Pferderetter" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Leben anderswo – 360° Reportage - Mongolei: Der Pferderetter
+https://arteptweb-a.akamaihd.net/am/ptweb/117000/117700/117728-005-A_SQ_0_VOA_11618373_MP4-2200_AMM-PTWEB-80923470489000_16lQ3Q.mp4
 #EXTINF:-1 tvg-id="" tvg-name="planet e. – Meeresschildkröten - Wächter der Ozeane - Meer Crime" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="DOKUS | Natur & Tiere",planet e. – Meeresschildkröten - Wächter der Ozeane - Meer Crime
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261025_1530_meeresschildkroeten_pla/1/261025_1530_meeresschildkroeten_pla_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Gene Tierney - Hollywoods vergessener Star" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Gene Tierney - Hollywoods vergessener Star
@@ -11044,12 +11046,12 @@ https://arteptweb-a.akamaihd.net/am/ptweb/107000/107700/107789-001-A_SQ_0_VOA_11
 https://arteptweb-a.akamaihd.net/am/ptweb/094000/094400/094408-004-F_SQ_0_VA-STMA_11601000_MP4-2200_AMM-PTWEB-101105027560789_1O2VEh16MDEg.mp4
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Natur und Tiere – Wildkatzen und Wildhunde - Wildhunde, Meister der Anpassung
 https://arteptweb-a.akamaihd.net/am/ptweb/094000/094400/094408-003-F_SQ_0_VA_11600954_MP4-2200_AMM-PTWEB-80883799461821_16MD8D.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Gefährliche Natur (1/3): Wind" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Natur & Tiere",Gefährliche Natur (1/3): Wind
-https://nrodlzdf-a.akamaihd.net/none/phoenix/25/08/250808_phx_naturwindkorr_logo/1/250808_phx_naturwindkorr_logo_3328k_p15v15.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Gefährliche Natur (2/3): Eis" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Natur & Tiere",Gefährliche Natur (2/3): Eis
-https://nrodlzdf-a.akamaihd.net/none/phoenix/25/08/250808_phx_natureiskorr_logo/1/250808_phx_natureiskorr_logo_3328k_p15v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Gefährliche Natur (3/3): Feuer" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Natur & Tiere",Gefährliche Natur (3/3): Feuer
 https://nrodlzdf-a.akamaihd.net/none/phoenix/25/07/250722_phx_gefaehrlichenatur_feuer_logo/1/250722_phx_gefaehrlichenatur_feuer_logo_3328k_p15v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Gefährliche Natur (2/3): Eis" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Natur & Tiere",Gefährliche Natur (2/3): Eis
+https://nrodlzdf-a.akamaihd.net/none/phoenix/25/08/250808_phx_natureiskorr_logo/1/250808_phx_natureiskorr_logo_3328k_p15v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Gefährliche Natur (1/3): Wind" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Natur & Tiere",Gefährliche Natur (1/3): Wind
+https://nrodlzdf-a.akamaihd.net/none/phoenix/25/08/250808_phx_naturwindkorr_logo/1/250808_phx_naturwindkorr_logo_3328k_p15v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Leben anderswo – 360° Reportage - Im Einsatz für Nepals bedrohte Krokodile" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Leben anderswo – 360° Reportage - Im Einsatz für Nepals bedrohte Krokodile
 https://arteptweb-a.akamaihd.net/am/ptweb/130000/130000/130066-011-A_SQ_0_VOA-STMA_11597975_MP4-2200_AMM-PTWEB-101224489473556_1QXcPE16HudC.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Natur und Tiere – Wildkatzen und Wildhunde - Europas Wildkatzen: Rückkehr auf leisen Pfoten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Natur und Tiere – Wildkatzen und Wildhunde - Europas Wildkatzen: Rückkehr auf leisen Pfoten
@@ -11248,8 +11250,6 @@ https://arteptweb-a.akamaihd.net/am/ptweb/120000/120800/120842-001-A_SQ_0_VA_112
 https://arteptweb-a.akamaihd.net/am/ptweb/128000/128000/128012-002-A_SQ_0_VOA_11541506_MP4-2200_AMM-PTWEB-40511827248700_16qnXy10OumC.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Natur und Tiere – Nordamerikas Dschungel - Verborgene Wälder" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Natur und Tiere – Nordamerikas Dschungel - Verborgene Wälder
 https://arteptweb-a.akamaihd.net/am/ptweb/128000/128000/128012-001-A_SQ_0_VOA_11541463_MP4-2200_AMM-PTWEB-40511827248400_10Ouga.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Natur und Tiere – Globalisierung der Natur: Invasive Arten - Erfolgreich integriert?" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Natur und Tiere – Globalisierung der Natur: Invasive Arten - Erfolgreich integriert?
-https://arteptweb-a.akamaihd.net/am/ptweb/103000/103400/103497-002-F_SQ_0_VA-STMA_11518962_MP4-2200_AMM-PTWEB-101135003634376_zvTYr.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Jane Austen - Literatur und Leidenschaft" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png" group-title="DOKUS | Geschichte",Jane Austen - Literatur und Leidenschaft
 https://ndr-progressive.ard-mcdn.de/progressive/2026/0909/TV-20260909-1148-0800.1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Muhammad Ali · Ein Leben in zehn Fotos" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Geschichte",Muhammad Ali · Ein Leben in zehn Fotos
@@ -12450,10 +12450,12 @@ https://swr-pd.ard-mcdn.de/swrfernsehen/doku-reportage/2241716.avc-1080.mp4
 https://hr-progressive.ard-mcdn.de/odinson/dokus-and-reportagen/SVID-9879CD92-5B64-459B-B80B-B2549CFF3B68/e714d9e2-0a4a-4cf3-92e5-8a28f4c030e1/0225430_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Schützenausmarsch in Hannover 2026" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png" group-title="DOKUS | Gesellschaft & Politik",Schützenausmarsch in Hannover 2026
 https://ndr-progressive.ard-mcdn.de/progressive/2026/0705/TV-20260705-1030-0411.1080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Tupac Shakur" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Tupac Shakur
-https://nrodlzdf-a.akamaihd.net/none/phoenix/24/03/240326_phx_tupac_logo/1/240326_phx_tupac_logo_3328k_p15v15.mp4
-#EXTINF:-1 tvg-id="" tvg-name="John Lennon" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",John Lennon
+#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Kulinarik – Köstliches Ligurien - Riviera di Ponente - Der Garten Liguriens" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Entdeckung der Welt - Kulinarik – Köstliches Ligurien - Riviera di Ponente - Der Garten Liguriens
+https://arteptweb-a.akamaihd.net/am/ptweb/128000/128000/128028-004-A_SQ_0_VOA_11576054_MP4-2200_AMM-PTWEB-80962272431800_1gSbda15oYaz.mp4
+#EXTINF:-1 tvg-id="" tvg-name="John Lennon · Ein Leben in zehn Fotos" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",John Lennon · Ein Leben in zehn Fotos
 https://nrodlzdf-a.akamaihd.net/none/phoenix/24/03/240326_phx_lennon_logo/1/240326_phx_lennon_logo_3328k_p15v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tupac Shakur · Ein Leben in zehn Fotos" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Tupac Shakur · Ein Leben in zehn Fotos
+https://nrodlzdf-a.akamaihd.net/none/phoenix/24/03/240326_phx_tupac_logo/1/240326_phx_tupac_logo_3328k_p15v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – Stadt Land Kunst Spezial - Mexiko" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Kultur und Pop - Kunst – Stadt Land Kunst Spezial - Mexiko
 https://arteptweb-a.akamaihd.net/am/ptweb/120000/120000/120083-057-A_SQ_0_VA-STA_11613885_MP4-2200_AMM-PTWEB-101192927525958_18LjaX16h6VD.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Apollo 17 - Mission im All" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Apollo 17 - Mission im All
@@ -12688,8 +12690,6 @@ https://nrodlzdf-a.akamaihd.net/none/phoenix/25/06/250613_phx_jurassicsaurier2_l
 https://arteptweb-a.akamaihd.net/am/ptweb/105000/105600/105609-000-A_SQ_0_VA-STMA_11475843_MP4-2200_AMM-PTWEB-101123596508047_z2vFW.mp4
 #EXTINF:-1 tvg-id="" tvg-name="NANO Doku: Kann Spieltheorie die Welt retten?" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="DOKUS | Weitere Dokus",NANO Doku: Kann Spieltheorie die Welt retten?
 https://nrodlzdf-a.akamaihd.net/none/3sat/26/09/260910_nano_doku_spieltheorie_ndk/2/260910_nano_doku_spieltheorie_ndk_6660k_p37v17.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Quarks – Protein · Was der Hype wirklich bringt" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/hr.png" group-title="DOKUS | Weitere Dokus",Quarks – Protein · Was der Hype wirklich bringt
-https://wdr-progressive.ard-mcdn.de/media/p/public/weltweit/2026/09/08/6a5c0fba-c56d-4279-93ca-cb237dcaf094/6a5c0fba-c56d-4279-93ca-cb237dcaf094_AVC-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S11 E04 – Lebensangst (2)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Der Bergdoktor",S11 E04 – Lebensangst (2)
 https://nrodlzdf-a.akamaihd.net/none/zdf/21/08/210807_1925_sendung_dbd/5/210807_1925_sendung_dbd_a1a2_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S11 E05 – Versehrte Seelen (2)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Der Bergdoktor",S11 E05 – Versehrte Seelen (2)
@@ -13530,8 +13530,6 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/26/05/260513_ermittler_toedliche_begegn
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/07/260713_ermittler_eiskalt_geplant_inf/1/260713_ermittler_eiskalt_geplant_inf_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S09 E10 – Ausgeliefert - Ermittler!" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfinfohd.png" group-title="SERIEN | Ermittler!",S09 E10 – Ausgeliefert - Ermittler!
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/07/260731_ermittler_ausgeliefert_inf/1/260731_ermittler_ausgeliefert_inf_6660k_p37v17.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Folge 1253 – Alles unter einen Hut" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="SERIEN | Die Fallers",Folge 1253 – Alles unter einen Hut
-https://pdodswr-a.akamaihd.net/swrfernsehen/die-fallers/2202663.avc-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Folge 1254 – Warten und Hoffen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="SERIEN | Die Fallers",Folge 1254 – Warten und Hoffen
 https://pdodswr-a.akamaihd.net/swrfernsehen/die-fallers/2202669.avc-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Folge 1255 – Eingebrochen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="SERIEN | Die Fallers",Folge 1255 – Eingebrochen
@@ -13650,6 +13648,8 @@ https://swr-pd.ard-mcdn.de/swr/video/die-fallers/2347860.avc-1080.mp4
 https://swr-pd.ard-mcdn.de/swr/video/die-fallers/2353900.avc-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Folge 1313 – Aus der Deckung" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="SERIEN | Die Fallers",Folge 1313 – Aus der Deckung
 https://swr-pd.ard-mcdn.de/swr/video/die-fallers/2353901.avc-1080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Folge 1314 – Testergebnis" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="SERIEN | Die Fallers",Folge 1314 – Testergebnis
+https://swr-pd.ard-mcdn.de/swr/video/die-fallers/2353903.avc-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S06 E05 – Folge 70: Der Schläfer" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | Familie Dr. Kleist",S06 E05 – Folge 70: Der Schläfer
 https://odmdr-a.akamaihd.net/mp4dyn2/4/FCMS-41fbe1f7-7829-4be0-9f27-adc059908c4a-70dc5e5f2727_41.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S06 E06 – Folge 71: Hopp oder Topp" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | Familie Dr. Kleist",S06 E06 – Folge 71: Hopp oder Topp
@@ -16544,15 +16544,15 @@ https://customer-x8zydurm357k8j9p.cloudflarestream.com/5b46490d20cdd87fcac238b00
 https://streamcdnf34-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8
 #EXTINF:-1 tvg-id="SalveTV.de@SD" tvg-name="Salve TV" tvg-logo="https://i.imgur.com/GhKjHMG.png" group-title="DE | Religion",Salve TV
 https://58de7a369a9c4.streamlock.net/salvetv/ngrp:stream_720p_web/playlist.m3u8
-#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" group-title="TR | Din",Diyanet TV
+#EXTINF:-1 tvg-id="DiyanetTV.tr@SD" tvg-name="Diyanet TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" group-title="TR | Religion",Diyanet TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-name="İlke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="TR | Din",İlke TV
+#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-name="İlke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="TR | Religion",İlke TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 tvg-id="KanalHayat.tr@SD" tvg-name="Kanal Hayat" tvg-logo="https://i.imgur.com/eikZj19.png" group-title="TR | Din",Kanal Hayat
+#EXTINF:-1 tvg-id="KanalHayat.tr@SD" tvg-name="Kanal Hayat" tvg-logo="https://i.imgur.com/eikZj19.png" group-title="TR | Religion",Kanal Hayat
 https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
-#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-name="Lalegül TV" tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="TR | Din",Lalegül TV
+#EXTINF:-1 tvg-id="LalegulTV.tr@SD" tvg-name="Lalegül TV" tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="TR | Religion",Lalegül TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-name="Semerkand TV" tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="TR | Din",Semerkand TV
+#EXTINF:-1 tvg-id="SemerkandTV.tr@SD" tvg-name="Semerkand TV" tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="TR | Religion",Semerkand TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SercemTV.tr@HD" tvg-name="Serçem TV" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" group-title="TR | Din",Serçem TV
+#EXTINF:-1 tvg-id="SercemTV.tr@HD" tvg-name="Serçem TV" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" group-title="TR | Religion",Serçem TV
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8

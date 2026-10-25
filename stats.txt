@@ -1,6 +1,6 @@
-Stand: 2026-10-25 15:19 UTC
+Stand: 2026-10-25 18:00 UTC
 Live: 371 Sender (neu gebaut)
-Filme & Co.: 7907 Einträge aus MediathekView-Filmliste: 2970 Filme, 1435 Krimis, 30 Serien, 12631 Dokus, 572 Kinderfilme
+Filme & Co.: 7907 Einträge aus MediathekView-Filmliste: 2970 Filme, 1435 Krimis, 30 Serien, 12636 Dokus, 572 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -14,8 +14,8 @@ Kategorien:
    16  TR | Nachrichten
     5  TR | Sport
     9  TR | Kinder
-   13  TR | Müzik
-    2  TR | Belgesel
+   13  TR | Musik
+    2  TR | Doku
    30  EN | Film-Sender (Englisch)
    80  FILME | Neu
   116  FILME | Komödie
@@ -88,7 +88,7 @@ Kategorien:
    89  DE | Regional
    30  TR | Regional
     8  DE | Religion
-    6  TR | Din
+    6  TR | Religion
 
 Meldungen:
-721049 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+721105 Mediathek-Einträge gelesen (MediathekView-Filmliste)

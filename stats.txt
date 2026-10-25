@@ -1,6 +1,6 @@
-Stand: 2026-10-25 15:08 UTC
+Stand: 2026-10-25 15:09 UTC
 Live: 371 Sender (neu gebaut)
-Filme & Co.: 0 Einträge (alte Liste behalten; neu nur 0)
+Filme & Co.: 5123 Einträge aus MediathekView-Filmliste: 2983 Filme, 1625 Krimis, 30 Serien, 15823 Dokus, 573 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -17,18 +17,63 @@ Kategorien:
    13  TR | Müzik
     2  TR | Belgesel
    30  EN | Film-Sender (Englisch)
+   60  FILME | Neu
+   20  FILME | Horror & Grusel
+    7  FILME | Sci-Fi & Fantasy
+   52  FILME | Western
+    5  FILME | Action & Abenteuer
+   27  FILME | Thriller
+   49  FILME | Liebe & Romantik
+  124  FILME | Komödie
+   19  FILME | Historie & Biografie
+   11  FILME | Familie
+   77  FILME | Drama
+  400  FILME | Weitere Filme
+  926  KRIMIS | Weitere Krimis
+  479  KRIMIS | Tatort
+   77  KRIMIS | Polizeiruf 110
+  150  KINDER | Filme & Märchen
+  120  DOKUS | Natur & Tiere
+  120  DOKUS | Geschichte
+  120  DOKUS | Wissen & Technik
+  120  DOKUS | Reisen & Länder
+  120  DOKUS | True Crime
+  120  DOKUS | Gesellschaft & Politik
+  120  DOKUS | Weitere Dokus
+   60  SERIEN | Bettys Diagnose
+   60  SERIEN | Bianca - Wege zum Glück
+   60  SERIEN | Dahoam is Dahoam
+   60  SERIEN | Death in Paradise
+   60  SERIEN | Der Bergdoktor
+   60  SERIEN | Die Bergretter
+   60  SERIEN | Die Fallers
+   60  SERIEN | Die Pfefferkörner
+   60  SERIEN | Die Rosenheim-Cops
+   60  SERIEN | Die WG
+   60  SERIEN | Eisbär, Affe & Co.
+   60  SERIEN | Elefant, Tiger & Co.
+   60  SERIEN | Giraffe, Erdmännchen & Co.
+   60  SERIEN | hallo deutschland
+   60  SERIEN | In aller Freundschaft
+   60  SERIEN | In aller Freundschaft - Die jungen Ärzte
+   60  SERIEN | Kulturzeit
+   60  SERIEN | Kurzstrecke mit Pierre M. Krause
+   60  SERIEN | Lecker aufs Land
+   60  SERIEN | Löwenzahn mit Peter Lustig
+   60  SERIEN | Morden im Norden
+   60  SERIEN | NANO
+   60  SERIEN | Notruf Hafenkante
+   60  SERIEN | Panda, Gorilla & Co.
+   60  SERIEN | Rote Rosen
+   60  SERIEN | Schloss Einstein
+   60  SERIEN | SOKO Stuttgart
+   60  SERIEN | SOKO Wismar
+   60  SERIEN | Sturm der Liebe
+   60  SERIEN | WaPo Bodensee
    89  DE | Regional
    30  TR | Regional
     8  DE | Religion
     6  TR | Din
 
 Meldungen:
-Filmliste https://liste.mediathekview.de/Filmliste-akt.xz: https://liste.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste https://verteiler1.mediathekview.de/Filmliste-akt.xz: https://verteiler1.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste https://verteiler2.mediathekview.de/Filmliste-akt.xz: https://verteiler2.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste https://verteiler3.mediathekview.de/Filmliste-akt.xz: https://verteiler3.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste https://verteiler4.mediathekview.de/Filmliste-akt.xz: https://verteiler4.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste https://verteiler5.mediathekview.de/Filmliste-akt.xz: https://verteiler5.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste https://verteiler6.mediathekview.de/Filmliste-akt.xz: https://verteiler6.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>
-Filmliste nicht verfügbar (https://verteiler6.mediathekview.de/Filmliste-akt.xz: <urlopen error Tunnel connection failed: 403 Forbidden>), versuche MediathekViewWeb …
-MediathekViewWeb: Fehler – https://mediathekviewweb.de/api/query: <urlopen error Tunnel connection failed: 403 Forbidden>
+721049 Mediathek-Einträge gelesen (MediathekView-Filmliste)

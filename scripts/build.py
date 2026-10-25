@@ -324,53 +324,73 @@ SENDER_LOGO_NAME = {'ARD': 'Das Erste HD', 'ZDF': 'ZDF HD', 'ARTE.DE': 'ARTE HD'
                     'ZDFINFO': 'ZDFinfo HD'}
 
 I = re.I
-EXCL = re.compile(r'audiodeskription|hörfassung|hörfilm|gebärdensprach|\bDGS\b|klare sprache|leichte sprache|\(OV\)|\bOmU\b'
-                  r'|originalfassung|originalversion|englische fassung|\btrailer\b|\bteaser\b|vorschau|making[- ]of|outtakes'
-                  r'|hinter den kulissen|\bclip\b|\(ausschnitt\)|\bbonus\b|\bshorts?\b', I)
-NOFILM = re.compile(r'tagesschau|tagesthemen|\bheute\b|nachrichten|wetter|brisant|magazin|talk|lanz|illner|maischberger'
-                    r'|hart aber fair|miosga|presseclub|gottesdienst|\bmesse\b|bundestag|landtag|plenar|sportschau|sportstudio'
-                    r'|fußball|bundesliga|handball|biathlon|olympi|formel 1|konzert|festival|\blive\b|gala\b|preisverleihung'
-                    r'|quiz|\bshow\b|fernsehgarten|kochen|küche|rezept|ratgeber|verbraucher|plusminus|wiso|frontal|monitor'
-                    r'|kontraste|report mainz|panorama|kabarett|satire|heute-show|extra 3|die anstalt|lesung|hörspiel|podcast'
-                    r'|gespräch|interview|pressekonferenz|debatte|wahlen|wahlarena|bares für rares|lieder|schlager|musik', I)
+EXCL = re.compile(r'audiodeskription|hörfassung|hörfilm|gebärdensprach|\bDGS\b|klare sprache|leichte sprache|\(AD\)|\(OV\)|\bOmU\b'
+                  r'|\((?:englisch|english|original|swe|eng|fra|fre|ita|dan|nor|fin|spa|org)\)|originalfassung|originalversion'
+                  r'|englische fassung|\btrailer\b|\bteaser\b|vorschau|making[- ]of|outtakes|hinter den kulissen|\bclip\b'
+                  r'|\(ausschnitt\)|\bbonus\b|\bshorts?\b', I)
+NOFILM = re.compile(
+    r'tagesschau|tagesthemen|\bheute\b|nachrichten|wetter|brisant|magazin|talk|lanz|illner|maischberger|hart aber fair|miosga'
+    r'|presseclub|gottesdienst|\bmesse\b|bundestag|landtag|plenar|parlament|sportschau|sportstudio|\bsport|fußball|bundesliga'
+    r'|handball|biathlon|olympi|paralymp|formel 1|re-live|relive|replay|spieltag|weltcup|\bwm\b|\bem\b|volleyball|eishockey'
+    r'|tennis|sailgp|etappe|tour de|konzert|concert|festival|\blive\b|gala\b|verleihung|quiz|\bshow\b|fernsehgarten|kochen'
+    r'|küche|rezept|backen|lecker|ratgeber|verbraucher|plusminus|wiso|frontal|monitor|kontraste|report mainz|panorama'
+    r'|kabarett|satire|heute-show|extra 3|die anstalt|lesung|hörspiel|podcast|gespräch|interview|pressekonferenz|debatte'
+    r'|\bwahl|bares für rares|lieder|schlager|musik|\bklassik\b|br-klassik|jazz|bigband|big band|rockpalast|pop around'
+    r'|bardentreffen|singspiel|nockherberg|buchmesse|literaturclub|literaturbühne|vor ort|der tag\b|sondersendung'
+    r'|\baktuell\b|zdfheute|cinema strikes back|edeltalk|henke|eurovision|\besc\b|abendschau|journal|unterhaltung'
+    r'|kurzstrecke|& co\.|\bzoo\b|tierpark|leute heute|drehscheibe|hallo deutschland|kulturzeit|\bnano\b|landesschau'
+    r'|hier und heute|kaffee oder tee|volle kanne|wir in bayern|riverboat|nachtcaf|kölner treff|zur sache|fastnacht'
+    r'|karneval|fasching|narren|volksfest|umzug|aktenzeichen|wetten, dass|verstehen sie spaß|carmen nebel|silbereisen'
+    r'|zarrella|fest der|klein gegen groß|wer weiß|gefragt|quartett|küchenschlacht', I)
 DOC = re.compile(r'dokumentation|dokumentarfilm|dokudrama|\bdoku\b|doku-|-doku\b|dokuserie|dokureihe|reportage|terra x'
-                 r'|universum|planet e|37 grad|die story|exclusiv im ersten|\bre:|leschs kosmos|quarks|abenteuer erde'
+                 r'|universum|planet e|37 grad|37°|die story|exclusiv im ersten|\bre:|leschs kosmos|quarks|abenteuer erde'
                  r'|expeditionen ins tierreich|erlebnis erde|länder - menschen - abenteuer|zdfinfo|history', I)
 DOC_DESC = re.compile(r'dokumentation|dokumentarfilm|\bdoku\b|reportage|dokuserie|dokureihe', I)
-KRIMI = re.compile(r'tatort|polizeiruf|krimi|kommissar|wilsberg|ein starkes team|die toten vom|nord bei nordwest|friesland'
-                   r'|helen dorn|marie brand|unter verdacht|neben der spur|sarah kohr|stralsund|der kriminalist|schwarzach 23'
-                   r'|kriminalfilm|\bmord', I)
+KRIMI = re.compile(
+    r'tatort|polizeiruf|krimi|kommissar|wilsberg|ein starkes team|die toten vom|nord bei nordwest|friesland|helen dorn'
+    r'|marie brand|unter verdacht|neben der spur|sarah kohr|stralsund|kriminalist|schwarzach 23|\bmord|donna leon|wallander'
+    r'|inspector|inspektor|detective|sherlock|maigret|barnaby|midsomer|death in paradise|mittsommer|der alte\b|ein fall für'
+    r'|soko\b|rosenheim-cops|wapo\b|hafenkante|großstadtrevier|watzmann|die chefin|staatsanwalt|stubbe|bella block'
+    r'|nachtschicht|dupin|harter brocken|unter anklage|\bzorn\b|bordertown|the team\b', I)
 FILM_T = re.compile(r'spielfilm|fernsehfilm|kinofilm|\bfilm\b|\bfilme\b|\bkino|herzkino|fernsehspiel|filmmittwoch|filmdebüt'
                     r'|komödie|drama|thriller|liebesfilm|romanze|western|abenteuerfilm|actionfilm|familienfilm|märchenfilm'
                     r'|literaturverfilmung|science[- ]fiction|horrorfilm|historienfilm|roadmovie|biopic', I)
 FILM_D = re.compile(r'spielfilm|fernsehfilm|kinofilm|komödie|liebesfilm|thriller|drama|western|abenteuerfilm|actionfilm'
                     r'|familienfilm|märchenfilm|literaturverfilmung|science[- ]fiction|horrorfilm|historienfilm|romanze'
                     r'|regie:', I)
-KIDS = re.compile(r'märchen|sechs auf einen streich|kinderfilm', I)
+SE_MARK = re.compile(r'\(\s*S\s*(\d{1,4})\s*/\s*E\s*(\d{1,4})\s*\)', I)
+KIDS = re.compile(r'märchen|sechs auf einen streich|kinderfilm|löwenzahn|schloss einstein|pfefferkörner|die wg\b|sesamstraße'
+                  r'|sendung mit der maus|checker|tigerenten|siebenstein|\bpur\+|logo!', I)
 GENERIC_THEMA = re.compile(r'film|kino|fernsehspiel|^krimi|krimis$|serie|komödie|drama|thriller|highlight|mediathek|premiere'
                            r'|dokumentation|^doku|dokus$|reportage|^(ard|zdf|arte|3sat|phoenix|br|hr|mdr|ndr|rbb|sr|swr|wdr|one|kika)\b', I)
+REIHE_RE = re.compile(r'[-–·]\s*((?:Der|Die|Das|Ein)\s+[\wÄÖÜäöüß.-]+-?[Kk]rimi)\s*$')
 EP_RES = [
-    re.compile(r'\(\s*S\s*(\d{1,4})\s*/\s*E\s*(\d{1,4})\s*\)', I),
+    SE_MARK,
     re.compile(r'\bS(\d{1,4})\s*E(\d{1,4})\b', I),
     re.compile(r'Staffel\s*(\d{1,4})\D{1,6}Folge\s*(\d{1,4})', I),
     re.compile(r'()\bFolge\s*(\d{1,5})\b', I),
-    re.compile(r'()\((\d{1,5})\)\s*$'),
 ]
+GENRE_SUFFIX = (r'Spielfilm|Fernsehfilm|Kinofilm|Drama|Komödie|Tragikomödie|Thriller|Krimi|Kriminalfilm|Liebesfilm|Western'
+                r'|Dokumentarfilm|Actionfilm|Abenteuerfilm|Animationsfilm|Familienfilm|Science-Fiction-Film|Horrorfilm'
+                r'|Psychothriller|Musikfilm|Historienfilm|Mysterythriller|Kriegsfilm|Liebeskomödie|Coming-of-Age-Film'
+                r'|Filmdrama|Kinderfilm|Jugendfilm|Märchenfilm|Literaturverfilmung')
 FILM_GENRES = [
-    ('Horror & Grusel', r'horror|grusel|schocker|zombie|vampir'),
-    ('Sci-Fi & Fantasy', r'science[- ]fiction|sci-fi|fantasy|außerirdisch|dystop|zeitreise'),
-    ('Western', r'western'),
-    ('Action & Abenteuer', r'actionfilm|actionthriller|\baction\b|abenteuerfilm'),
-    ('Thriller', r'thriller'),
-    ('Liebe & Romantik', r'liebesfilm|romanze|romantisch|liebeskomödie|herzkino|rosamunde pilcher|inga lindström|katie fforde'
-                         r'|liebesgeschichte|liebesdrama'),
     ('Komödie', r'komödie|comedy|\bkomisch|turbulent'),
+    ('Liebe & Romantik', r'liebesfilm|romanze|romantisch|liebeskomödie|herzkino|rosamunde pilcher|inga lindström|katie fforde'
+                         r'|liebesgeschichte|liebesdrama|traumschiff|kreuzfahrt ins glück|utta danella|lena lorenz|frühling'
+                         r'|praxis mit meerblick|ein sommer in|liebe am fjord'),
+    ('Drama', r'drama|tragikomödie'),
+    ('Thriller', r'thriller'),
+    ('Action & Abenteuer', r'actionfilm|actionthriller|\baction\b|abenteuerfilm'),
+    ('Sci-Fi & Fantasy', r'science[- ]fiction|sci-fi|fantasy|außerirdisch|dystop|zeitreise'),
+    ('Horror & Grusel', r'horror|grusel|schocker|zombie|vampir'),
+    ('Western', r'western'),
     ('Historie & Biografie', r'historienfilm|historiendrama|biografie|biopic|wahren begebenheit|wahre geschichte|nach einer wahren'
                              r'|kriegsfilm|kriegsdrama'),
     ('Familie', r'familienfilm|für die ganze familie|kinderfilm|jugendfilm'),
-    ('Drama', r'drama|tragikomödie'),
 ]
-FILM_GROUPS = ['Neu'] + [g for g, _ in FILM_GENRES] + ['Weitere Filme']
+GENRE_PRIO = ['Horror & Grusel', 'Sci-Fi & Fantasy', 'Western', 'Action & Abenteuer', 'Thriller', 'Liebe & Romantik', 'Komödie',
+              'Historie & Biografie', 'Familie', 'Drama']
 DOC_GENRES = [
     ('Natur & Tiere', r'\btier|natur|wildnis|wildlife|ozean|\bmeer|wälder|\bwald\b|safari|vögel|insekt|dschungel|arktis|antarktis'),
     ('Geschichte', r'geschichte|histor|weltkrieg|\bkrieg|nazi|hitler|\bddr\b|mittelalter|römer|antike|kaiser|könig|pharao|wikinger'),
@@ -381,9 +401,12 @@ DOC_GENRES = [
     ('Gesellschaft & Politik', r'politik|gesellschaft|wirtschaft|reportage|story'),
 ]
 DOC_GROUPS = [g for g, _ in DOC_GENRES] + ['Weitere Dokus']
+AZ = [('A–C', 'abc'), ('D–F', 'def'), ('G–I', 'ghi'), ('J–L', 'jkl'), ('M–O', 'mno'), ('P–S', 'pqrs'),
+      ('T–Z & 0–9', 'tuvwxyz0123456789')]
 MAX_PER_DOC_GROUP = 120
 MAX_SERIES = 30
 MAX_EPISODES = 60
+MIN_GENRE = 8
 
 
 def hms(s):
@@ -465,19 +488,40 @@ def mvw_records():
     return out
 
 
-def tidy_title(t):
+def tidy_title(t, thema=''):
+    t = (t or '').replace('"', "'")
     t = re.sub(r'\s*\((?:mit )?(?:Untertitel|UT)\)', '', t, flags=I)
-    t = re.sub(r'\s*[-–|:]\s*(Spielfilm|Fernsehfilm|Film|Kinofilm)\s*$', '', t, flags=I)
-    t = re.sub(r'^(Spielfilm|Fernsehfilm|Film|Kinofilm)\s*[:–-]\s*', '', t, flags=I)
-    return re.sub(r'\s+', ' ', t.replace('"', "'")).strip(' -–|')
+    t = SE_MARK.sub('', t)
+    t = re.sub(r'\s*[-–|·]\s*(?:Der|Ein)\s+(?:Samstags|Sonntags|Montags|Dienstags|Mittwochs|Donnerstags|Freitags)krimi\b', '', t, flags=I)
+    t = re.sub(r'\s*[-–]\s*Aus der Herzkino-Reihe.*$', '', t, flags=I)
+    t = re.sub(r'\s*[-–]\s*Nach (?:der|dem|den|einer|einem) .*$', '', t, flags=I)
+    t = re.sub(r'\s*[-–]\s*(?:' + GENRE_SUFFIX + r')\b[^-–]*?\d{4}\s*$', '', t, flags=I)
+    t = re.sub(r'\s*[-–|:]\s*(?:Spielfilm|Fernsehfilm|Film|Kinofilm)\s*$', '', t, flags=I)
+    t = re.sub(r'^(?:Spielfilm|Fernsehfilm|Film|Kinofilm)\s*[:–-]\s*', '', t, flags=I)
+    th = (thema or '').strip()
+    if th and not GENERIC_THEMA.search(th):
+        t = re.sub(r'\s*[-–·|:]\s*' + re.escape(th) + r'(?:\s*\(\d+\))?\s*$', '', t, flags=I)
+    return re.sub(r'\s+', ' ', t).strip(' -–|·:')
 
 
 def display_name(thema, titel):
-    t = tidy_title(titel)
-    th = thema.replace('"', "'").strip()
+    t = tidy_title(titel, thema)
+    th = (thema or '').replace('"', "'").strip()
     if not th or th.lower() in t.lower() or t.lower() in th.lower() or GENERIC_THEMA.search(th):
         return t or th
     return f'{th} – {t}'
+
+
+def core_key(name):
+    k = re.sub(r'\([^)]*\)', ' ', name.lower())
+    k = re.sub(r'^(tatort|polizeiruf 110)\s*[-–:]\s*', '', k)
+    return re.sub(r'[^a-z0-9äöüß]', '', k)
+
+
+def az_key(name):
+    k = name.lower().replace('ä', 'a').replace('ö', 'o').replace('ü', 'u').replace('ß', 'ss')
+    k = re.sub(r'^[^a-z0-9]+', '', k)
+    return re.sub(r'^(der|die|das|ein|eine|the|a|an)\s+', '', k)
 
 
 def episode(title):
@@ -494,7 +538,7 @@ def episode(title):
 def build_vod(records, logos):
     films, krimis, kids, docs = [], [], [], []
     series = collections.defaultdict(list)
-    debug = collections.defaultdict(lambda: [0, '', ''])
+    debug = collections.defaultdict(lambda: [0, '', collections.Counter()])
     for r in records:
         sender = (r['sender'] or '').strip().upper()
         if sender not in SENDER_OK or not r['url']:
@@ -509,82 +553,117 @@ def build_vod(records, logos):
         if EXCL.search(tt):
             continue
         dur = r['dur']
+        long_ = 70 * 60 <= dur <= 200 * 60
         r = dict(r, sender=sender, url=r['url_hd'] or r['url'])
         cat = None
         if sender in KIDS_SENDER or KIDS.search(tt):
             cat = 'kids' if dur >= 45 * 60 and not NOFILM.search(tt) else None
-        elif DOC.search(tt) or (sender == 'PHOENIX' and not NOFILM.search(tt)):
+        elif DOC.search(tt):
             cat = 'doc' if dur >= 30 * 60 else None
-        elif NOFILM.search(tt):
+        elif NOFILM.search(tt) or sender == 'PHOENIX':
             cat = None
-        elif KRIMI.search(tt) and dur >= 75 * 60:
+        elif KRIMI.search(tt) and 75 * 60 <= dur <= 200 * 60:
             cat = 'krimi'
-        elif FILM_T.search(tt) and 70 * 60 <= dur <= 200 * 60:
+        elif FILM_T.search(tt) and long_:
             cat = 'film'
         elif DOC_DESC.search(desc) and dur >= 30 * 60:
             cat = 'doc'
-        elif FILM_D.search(desc) and 75 * 60 <= dur <= 200 * 60:
+        elif long_ and (FILM_D.search(desc) or SE_MARK.search(titel)):
             cat = 'film'
-        elif 18 * 60 <= dur <= 75 * 60 and episode(titel):
-            cat = 'series'
+        elif 20 * 60 <= dur <= 70 * 60:
+            ep = episode(titel)
+            if ep and ep[0] < 1900:
+                cat = 'series'
         if DEBUG and dur >= 70 * 60:
             d = debug[(sender, thema)]
-            d[0] += 1; d[1] = d[1] or titel; d[2] = cat or '-'
-        if cat == 'film':
-            films.append(r)
-        elif cat == 'krimi':
-            krimis.append(r)
-        elif cat == 'kids':
-            kids.append(r)
-        elif cat == 'doc':
-            docs.append(r)
-        elif cat == 'series':
+            d[0] += 1; d[1] = d[1] or titel; d[2][cat or '-'] += 1
+        if cat == 'series':
             series[thema.strip()].append(r)
+        elif cat:
+            {'film': films, 'krimi': krimis, 'kids': kids, 'doc': docs}[cat].append(r)
 
     out = []
 
     def item(group, r, name):
         out.append(dict(group=group, name=name, logo=logos.get(r['sender'], ''), tvgid='', url=r['url'], opts=[]))
 
-    def dedupe(rs, name_fn):
-        seen, res = set(), []
+    def dedupe(rs, skip=()):
+        seen, res = set(skip), []
         for r in sorted(rs, key=lambda x: -x['ts']):
-            nm = name_fn(r)
-            key = (re.sub(r'[^a-z0-9]', '', nm.lower()), round(r['dur'] / 600))
-            if key in seen:
+            nm = display_name(r['thema'], r['titel'])
+            key = core_key(nm)
+            if not key or key in seen:
                 continue
             seen.add(key); res.append((r, nm))
         return res
 
-    # Filme
-    film_items = dedupe(films, lambda r: display_name(r['thema'], r['titel']))
+    # Krimis (zuerst, damit ein Krimi nicht zusätzlich als Film auftaucht)
+    krimi_items = dedupe(krimis)
+    krimi_keys = {core_key(nm) for _, nm in krimi_items}
+    reihe = []
+    for r, nm in krimi_items:
+        if re.match(r'tatort\b', r['thema'].strip(), I) or re.match(r'tatort\b', r['titel'].strip(), I):
+            g = 'Tatort'
+        elif re.match(r'polizeiruf', r['thema'].strip(), I) or re.match(r'polizeiruf', r['titel'].strip(), I):
+            g = 'Polizeiruf 110'
+        else:
+            th = r['thema'].strip()
+            m = REIHE_RE.search(r['titel'])
+            g = th if th and not GENERIC_THEMA.search(th) else (m.group(1) if m else 'Weitere Krimis')
+        reihe.append(g)
+    counts = collections.Counter(reihe)
+    fixed = ('Tatort', 'Polizeiruf 110', 'Weitere Krimis')
+    big = [g for g, n in counts.most_common() if g not in fixed and n >= 6][:12]
+    groups = collections.defaultdict(list)
+    for (r, nm), g in zip(krimi_items, reihe):
+        if g not in fixed and g not in big:
+            g = 'Weitere Krimis'
+        if g in ('Tatort', 'Polizeiruf 110') and not nm.lower().startswith(g.split()[0].lower()):
+            nm = f'{g} – {nm}'
+        elif g not in fixed:
+            nm = re.sub(r'\s*[-–·]\s*' + re.escape(g) + r'\s*$', '', nm).strip(' -–·') or nm
+            if not nm.lower().startswith(g.lower()):
+                nm = f'{g} – {nm}'
+        groups[g].append((r, nm))
+    krimi_out = []
+    for g in ['Tatort', 'Polizeiruf 110'] + sorted(big, key=str.lower) + ['Weitere Krimis']:
+        for r, nm in sorted(groups.get(g, []), key=lambda x: az_key(x[1])):
+            krimi_out.append((f'KRIMIS | {g}', r, nm))
+
+    # Filme: Neu, Genres, dann alle Filme von A bis Z
+    film_items = dedupe(films, skip=krimi_keys)
+    for r, nm in [x for x in film_items if x[0]['ts'] >= NOW - 14 * 86400][:80]:
+        item('FILME | Neu', r, nm)
     by_genre = collections.defaultdict(list)
     for r, nm in film_items:
         text = f"{r['thema']} {r['titel']} {r['desc']}"
-        genre = next((g for g, rx in FILM_GENRES if re.search(rx, text, I)), 'Weitere Filme')
-        by_genre[genre].append((r, nm))
-    neu = [(r, nm) for r, nm in film_items if r['ts'] >= NOW - 10 * 86400][:60]
-    for r, nm in neu:
-        item('FILME | Neu', r, nm)
-    for g in FILM_GROUPS[1:]:
-        for r, nm in by_genre.get(g, [])[:400]:
-            item(f'FILME | {g}', r, nm)
+        hits = [g for g, rx in FILM_GENRES if re.search(rx, text, I)]
+        if hits:
+            by_genre[min(hits, key=GENRE_PRIO.index)].append((r, nm))
+    for g, _ in FILM_GENRES:
+        rows = sorted(by_genre.get(g, []), key=lambda x: az_key(x[1]))
+        if len(rows) >= MIN_GENRE:
+            for r, nm in rows:
+                item(f'FILME | {g}', r, nm)
+    by_letter = collections.defaultdict(list)
+    for r, nm in film_items:
+        k = az_key(nm)
+        g = next((label for label, chars in AZ if k[:1] in chars), AZ[-1][0])
+        by_letter[g].append((r, nm))
+    for label, _ in AZ:
+        for r, nm in sorted(by_letter.get(label, []), key=lambda x: az_key(x[1])):
+            item(f'FILME | {label}', r, nm)
 
-    # Krimis
-    for r, nm in dedupe(krimis, lambda r: display_name(r['thema'], r['titel'])):
-        t = f"{r['thema']} {r['titel']}".lower()
-        g = 'Tatort' if 'tatort' in t else 'Polizeiruf 110' if 'polizeiruf' in t else 'Weitere Krimis'
-        if g != 'Weitere Krimis' and g.split()[0].lower() not in nm.lower():
-            nm = f'{g} – {nm}'
-        item(f'KRIMIS | {g}', r, nm)
+    for g, r, nm in krimi_out:
+        item(g, r, nm)
 
     # Kinder
-    for r, nm in dedupe(kids, lambda r: display_name(r['thema'], r['titel']))[:150]:
+    for r, nm in dedupe(kids)[:150]:
         item('KINDER | Filme & Märchen', r, nm)
 
     # Dokus
     by_doc = collections.defaultdict(list)
-    for r, nm in dedupe(docs, lambda r: display_name(r['thema'], r['titel'])):
+    for r, nm in dedupe(docs):
         text = f"{r['thema']} {r['titel']} {r['desc']}"
         g = next((g for g, rx in DOC_GENRES if re.search(rx, text, I)), 'Weitere Dokus')
         by_doc[g].append((r, nm))
@@ -593,29 +672,30 @@ def build_vod(records, logos):
             item(f'DOKUS | {g}', r, nm)
 
     # Serien: die Reihen mit den meisten verfügbaren Folgen
-    ranked = sorted(((th, rs) for th, rs in series.items() if th and len(rs) >= 4), key=lambda x: -len(x[1]))[:MAX_SERIES]
-    for th, rs in sorted(ranked, key=lambda x: x[0].lower()):
+    cand = []
+    for th, rs in series.items():
         eps = {}
         for r in sorted(rs, key=lambda x: -x['ts']):
             ep = episode(r['titel'])
-            if not ep:
-                continue
-            key = (ep[0], ep[1])
-            if key not in eps:
-                eps[key] = (r, ep)
+            if ep and (ep[0], ep[1]) not in eps:
+                eps[(ep[0], ep[1])] = (r, ep)
+        if th and len(eps) >= 4:
+            cand.append((th, eps))
+    ranked = sorted(cand, key=lambda x: -len(x[1]))[:MAX_SERIES]
+    for th, eps in sorted(ranked, key=lambda x: az_key(x[0])):
         chosen = sorted(eps.values(), key=lambda x: (x[1][0], x[1][1]))[-MAX_EPISODES:]
         for r, (s, e, rest) in chosen:
             label = f'S{s:02d} E{e:02d}' if s else f'Folge {e}'
             item(f'SERIEN | {th.replace(chr(34), chr(39))}', r, f'{label} – {rest}' if rest else label)
 
-    stats = dict(filme=len(film_items), krimis=len(krimis), kinder=len(kids), dokus=len(docs),
+    stats = dict(filme=len(film_items), krimis=len(krimi_items), kinder=len(kids), dokus=len(docs),
                  serien=len(ranked), eintraege=len(out))
     if DEBUG:
-        rows = sorted(debug.items(), key=lambda kv: -kv[1][0])[:400]
+        rows = sorted(debug.items(), key=lambda kv: -kv[1][0])[:500]
         with open(DEBUG_FILE, 'w', encoding='utf-8') as f:
-            f.write('Anzahl | Sender | Thema | Beispieltitel | Kategorie (nur Einträge ab 70 Min.)\n')
+            f.write('Anzahl | Sender | Thema | Beispieltitel | Kategorien (nur Einträge ab 70 Min.)\n')
             for (s, th), (n, ex, c) in rows:
-                f.write(f'{n:4} | {s} | {th} | {ex} | {c}\n')
+                f.write(f"{n:4} | {s} | {th} | {ex} | {', '.join(f'{k}:{v}' for k, v in c.most_common())}\n")
     return out, stats
 
 

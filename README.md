@@ -15,7 +15,15 @@ https://raw.githubusercontent.com/UgurCanMa/Tv/main/tv.m3u
 
 Die Liste wird jeden Tag automatisch neu gebaut. Abgelaufene Mediathek-Filme fliegen raus, neue kommen dazu.
 
-## In der App einrichten
+## Eigene App „Ugur TV“ (Android)
+
+Die Liste ist schon eingebaut – nur installieren und schauen:
+**[UgurTV.apk herunterladen](https://github.com/UgurCanMa/Tv/releases/latest/download/UgurTV.apk)**
+
+Live-TV, Filme, Krimis, Serien, Dokus, Suche, Favoriten (lange drücken) und „Weiterschauen“.
+Läuft auf Android-Handys und auf dem Fire TV Stick.
+
+## In einer anderen IPTV-App einrichten
 
 Kostenlose App ohne Abo: **M3U IPTV** (Samsung-TV ab 2021 und Android).
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ugur TV</string>
+    <string name="search_hint">Suchen …</string>
+    <string name="refresh">↻</string>
+    <string name="refresh_desc">Liste aktualisieren</string>
+    <string name="star">★</string>
+    <string name="loading">Liste wird geladen …</string>
+    <string name="empty">Keine Einträge.</string>
+    <string name="refreshing">Liste wird aktualisiert …</string>
+    <string name="refresh_failed">Aktualisieren hat nicht geklappt – die gespeicherte Liste wird angezeigt.</string>
+    <string name="offline">Keine Verbindung. Bitte Internet prüfen und oben auf ↻ tippen.</string>
+    <string name="status">%1$s Einträge · Stand %2$s</string>
+    <string name="no_favorites">Noch keine Favoriten.\nLange auf einen Sender oder Film drücken, um ihn hier zu speichern.</string>
+    <string name="no_recents">Noch nichts angesehen.</string>
+    <string name="no_hits">Nichts gefunden für „%1$s“.</string>
+    <string name="hits">%1$s Treffer für „%2$s“</string>
+    <string name="fav_added">★ Zu Favoriten hinzugefügt</string>
+    <string name="fav_removed">Aus Favoriten entfernt</string>
+    <string name="play_error">„%1$s“ läuft gerade nicht.\n(%2$s)\n\nZurück-Taste: zur Liste\n⏭ oder ▲ ▼: nächster Eintrag</string>
+</resources>

@@ -110,7 +110,7 @@ def norm(n):
 ARD = 'DE | ARD & ZDF'; FIL = 'DE | Film-Sender'; SER = 'DE | Serien-Sender'; NEW = 'DE | Nachrichten & Doku'
 SPO = 'DE | Sport'; KID = 'DE | Kinder'; MUS = 'DE | Musik'; REG = 'DE | Regional'; REL = 'DE | Religion'
 T_MAIN = 'TR | Hauptsender'; T_NEW = 'TR | Nachrichten'; T_SPO = 'TR | Sport'; T_KID = 'TR | Kinder'
-T_MUS = 'TR | Müzik'; T_DOK = 'TR | Belgesel'; T_REL = 'TR | Din'; T_REG = 'TR | Regional'
+T_MUS = 'TR | Musik'; T_DOK = 'TR | Doku'; T_REL = 'TR | Religion'; T_REG = 'TR | Regional'
 ENF = 'EN | Film-Sender (Englisch)'
 LIVE_TOP = [ARD, FIL, SER, NEW, SPO, KID, MUS, T_MAIN, T_NEW, T_SPO, T_KID, T_MUS, T_DOK, ENF]
 LIVE_BOTTOM = [REG, T_REG, REL, T_REL]

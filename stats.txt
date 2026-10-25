@@ -1,6 +1,6 @@
-Stand: 2026-10-25 15:09 UTC
+Stand: 2026-10-25 15:16 UTC
 Live: 371 Sender (neu gebaut)
-Filme & Co.: 5123 Einträge aus MediathekView-Filmliste: 2983 Filme, 1625 Krimis, 30 Serien, 15823 Dokus, 573 Kinderfilme
+Filme & Co.: 7960 Einträge aus MediathekView-Filmliste: 3006 Filme, 1437 Krimis, 30 Serien, 10946 Dokus, 577 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -17,21 +17,36 @@ Kategorien:
    13  TR | Müzik
     2  TR | Belgesel
    30  EN | Film-Sender (Englisch)
-   60  FILME | Neu
-   20  FILME | Horror & Grusel
-    7  FILME | Sci-Fi & Fantasy
-   52  FILME | Western
-    5  FILME | Action & Abenteuer
-   27  FILME | Thriller
-   49  FILME | Liebe & Romantik
-  124  FILME | Komödie
+   80  FILME | Neu
+  117  FILME | Komödie
+  385  FILME | Liebe & Romantik
+   56  FILME | Drama
+   21  FILME | Thriller
+   39  FILME | Western
    19  FILME | Historie & Biografie
-   11  FILME | Familie
-   77  FILME | Drama
-  400  FILME | Weitere Filme
-  926  KRIMIS | Weitere Krimis
-  479  KRIMIS | Tatort
-   77  KRIMIS | Polizeiruf 110
+   10  FILME | Familie
+  344  FILME | A–C
+  492  FILME | D–F
+  378  FILME | G–I
+  389  FILME | J–L
+  296  FILME | M–O
+  477  FILME | P–S
+  630  FILME | T–Z & 0–9
+  463  KRIMIS | Tatort
+   74  KRIMIS | Polizeiruf 110
+   23  KRIMIS | Der Bozen-Krimi
+   17  KRIMIS | Der Kroatien-Krimi
+   33  KRIMIS | Der Usedom-Krimi
+   20  KRIMIS | Der Zürich-Krimi
+   26  KRIMIS | Die Toten vom Bodensee
+   18  KRIMIS | Donna Leon
+   26  KRIMIS | Friesland
+   23  KRIMIS | Helen Dorn
+   28  KRIMIS | Mankells Wallander
+   24  KRIMIS | München Mord
+   30  KRIMIS | Nord bei Nordwest
+   55  KRIMIS | Wilsberg
+  577  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -40,35 +55,35 @@ Kategorien:
   120  DOKUS | True Crime
   120  DOKUS | Gesellschaft & Politik
   120  DOKUS | Weitere Dokus
+   60  SERIEN | Der Bergdoktor
+   60  SERIEN | Die Bergretter
    60  SERIEN | Bettys Diagnose
    60  SERIEN | Bianca - Wege zum Glück
    60  SERIEN | Dahoam is Dahoam
    60  SERIEN | Death in Paradise
-   60  SERIEN | Der Bergdoktor
-   60  SERIEN | Die Bergretter
+   60  SERIEN | Ermittler!
    60  SERIEN | Die Fallers
-   60  SERIEN | Die Pfefferkörner
-   60  SERIEN | Die Rosenheim-Cops
-   60  SERIEN | Die WG
-   60  SERIEN | Eisbär, Affe & Co.
-   60  SERIEN | Elefant, Tiger & Co.
-   60  SERIEN | Giraffe, Erdmännchen & Co.
-   60  SERIEN | hallo deutschland
+   60  SERIEN | Familie Dr. Kleist
+   60  SERIEN | Feuer & Flamme
+   60  SERIEN | Find me in Paris
+   60  SERIEN | Großstadtrevier
    60  SERIEN | In aller Freundschaft
    60  SERIEN | In aller Freundschaft - Die jungen Ärzte
-   60  SERIEN | Kulturzeit
-   60  SERIEN | Kurzstrecke mit Pierre M. Krause
-   60  SERIEN | Lecker aufs Land
-   60  SERIEN | Löwenzahn mit Peter Lustig
+   60  SERIEN | Die Kanzlei
+   60  SERIEN | Der letzte Zeuge
+   60  SERIEN | Mittendrin - Flughafen Frankfurt
    60  SERIEN | Morden im Norden
-   60  SERIEN | NANO
    60  SERIEN | Notruf Hafenkante
-   60  SERIEN | Panda, Gorilla & Co.
-   60  SERIEN | Rote Rosen
-   60  SERIEN | Schloss Einstein
+   60  SERIEN | Rentnercops
+   60  SERIEN | Die Rosenheim-Cops
+   60  SERIEN | Die Schwarzwaldklinik
+   60  SERIEN | SOKO Leipzig
    60  SERIEN | SOKO Stuttgart
    60  SERIEN | SOKO Wismar
+   60  SERIEN | strassenstars
    60  SERIEN | Sturm der Liebe
+   60  SERIEN | Tierärztin Dr. Mertens
+   60  SERIEN | Tiere bis unters Dach
    60  SERIEN | WaPo Bodensee
    89  DE | Regional
    30  TR | Regional

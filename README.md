@@ -23,6 +23,10 @@ Die Liste ist schon eingebaut – nur installieren und schauen:
 Live-TV, Filme, Krimis, Serien, Dokus, Suche, Favoriten (lange drücken) und „Weiterschauen“.
 Läuft auf Android-Handys und auf dem Fire TV Stick.
 
+Die Senderliste aktualisiert sich in der App von selbst. Falls es mal eine neue App-Version gibt:
+alte Version erst deinstallieren, dann die neue installieren (die App wird bei jedem Bau neu signiert,
+weil kein Signierschlüssel öffentlich im Repo liegt).
+
 ## In einer anderen IPTV-App einrichten
 
 Kostenlose App ohne Abo: **M3U IPTV** (Samsung-TV ab 2021 und Android).

@@ -2,6 +2,7 @@ package de.ugur.tv
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.Color
 import android.os.Handler
 import android.os.Looper
 import android.util.LruCache
@@ -10,6 +11,7 @@ import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
 import java.util.Collections
+import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.Executors
 
 const val PLAYLIST_URL = "https://raw.githubusercontent.com/UgurCanMa/Tv/main/tv.m3u"
@@ -41,15 +43,18 @@ object Logos {
     private val pool = Executors.newFixedThreadPool(4)
     private val main = Handler(Looper.getMainLooper())
 
+    private val bright = ConcurrentHashMap<String, Boolean>()
+
     fun load(view: ImageView, url: String) {
         view.tag = url
+        view.setBackgroundResource(R.drawable.logo_bg)
         if (url.isEmpty() || url in failed) {
             view.setImageResource(R.drawable.ic_placeholder)
             return
         }
         val hit = cache.get(url)
         if (hit != null) {
-            view.setImageBitmap(hit)
+            show(view, url, hit)
             return
         }
         view.setImageResource(R.drawable.ic_placeholder)
@@ -59,9 +64,36 @@ object Logos {
             } catch (e: Exception) {
                 null
             }
-            if (bmp == null) failed.add(url) else cache.put(url, bmp)
-            main.post { if (view.tag == url && bmp != null) view.setImageBitmap(bmp) }
+            if (bmp == null) {
+                failed.add(url)
+            } else {
+                bright[url] = isBright(bmp)
+                cache.put(url, bmp)
+            }
+            main.post { if (view.tag == url && bmp != null) show(view, url, bmp) }
         }
+    }
+
+    private fun show(view: ImageView, url: String, bmp: Bitmap) {
+        view.setImageBitmap(bmp)
+        view.setBackgroundResource(if (bright[url] == true) R.drawable.logo_bg_dark else R.drawable.logo_bg)
+    }
+
+    /** Fast weiße Logos bekommen einen dunklen Hintergrund, damit man sie sieht. */
+    private fun isBright(bmp: Bitmap): Boolean {
+        val small = Bitmap.createScaledBitmap(bmp, 24, 24, true)
+        var sum = 0.0
+        var n = 0
+        for (y in 0 until small.height) {
+            for (x in 0 until small.width) {
+                val c = small.getPixel(x, y)
+                if (Color.alpha(c) < 140) continue
+                sum += (0.299 * Color.red(c) + 0.587 * Color.green(c) + 0.114 * Color.blue(c)) / 255.0
+                n++
+            }
+        }
+        if (small !== bmp) small.recycle()
+        return n >= 12 && sum / n > 0.82
     }
 
     private fun fetch(url: String): Bitmap? {

@@ -1,6 +1,6 @@
-Stand: 2026-10-26 09:08 UTC
+Stand: 2026-10-27 09:10 UTC
 Live: 371 Sender (neu gebaut)
-Filme & Co.: 7899 Einträge aus MediathekView-Filmliste: 2968 Filme, 1430 Krimis, 30 Serien, 12620 Dokus, 572 Kinderfilme
+Filme & Co.: 7905 Einträge aus MediathekView-Filmliste: 2967 Filme, 1436 Krimis, 30 Serien, 12684 Dokus, 567 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -19,24 +19,24 @@ Kategorien:
    30  EN | Film-Sender (Englisch)
    80  FILME | Neu
   116  FILME | Komödie
-  384  FILME | Liebe & Romantik
+  385  FILME | Liebe & Romantik
    51  FILME | Drama
    21  FILME | Thriller
    39  FILME | Western
    12  FILME | Historie & Biografie
    10  FILME | Familie
-  340  FILME | A–C
-  480  FILME | D–F
-  375  FILME | G–I
-  382  FILME | J–L
-  290  FILME | M–O
-  475  FILME | P–S
-  626  FILME | T–Z & 0–9
+  341  FILME | A–C
+  481  FILME | D–F
+  377  FILME | G–I
+  384  FILME | J–L
+  283  FILME | M–O
+  473  FILME | P–S
+  628  FILME | T–Z & 0–9
   462  KRIMIS | Tatort
    74  KRIMIS | Polizeiruf 110
-   23  KRIMIS | Der Bozen-Krimi
+   21  KRIMIS | Der Bozen-Krimi
    17  KRIMIS | Der Kroatien-Krimi
-   33  KRIMIS | Der Usedom-Krimi
+   34  KRIMIS | Der Usedom-Krimi
    20  KRIMIS | Der Zürich-Krimi
    25  KRIMIS | Die Toten vom Bodensee
    18  KRIMIS | Donna Leon
@@ -46,7 +46,7 @@ Kategorien:
    24  KRIMIS | München Mord
    30  KRIMIS | Nord bei Nordwest
    55  KRIMIS | Wilsberg
-  571  KRIMIS | Weitere Krimis
+  578  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -61,6 +61,7 @@ Kategorien:
    60  SERIEN | Bianca - Wege zum Glück
    60  SERIEN | Dahoam is Dahoam
    60  SERIEN | Death in Paradise
+   60  SERIEN | Durch die Wildnis
    60  SERIEN | Ermittler!
    60  SERIEN | Die Fallers
    60  SERIEN | Familie Dr. Kleist
@@ -83,7 +84,6 @@ Kategorien:
    60  SERIEN | Sturm der Liebe
    60  SERIEN | Tierärztin Dr. Mertens
    60  SERIEN | Tiere bis unters Dach
-   60  SERIEN | Verrückt nach Meer
    60  SERIEN | WaPo Bodensee
    89  DE | Regional
    30  TR | Regional
@@ -91,4 +91,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-720696 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+720912 Mediathek-Einträge gelesen (MediathekView-Filmliste)

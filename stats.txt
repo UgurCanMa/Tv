@@ -1,6 +1,6 @@
-Stand: 2026-10-30 10:14 UTC
-Live: 371 Sender (neu gebaut)
-Filme & Co.: 7906 Einträge aus MediathekView-Filmliste: 2958 Filme, 1448 Krimis, 30 Serien, 12671 Dokus, 570 Kinderfilme
+Stand: 2026-10-31 09:48 UTC
+Live: 372 Sender (neu gebaut)
+Filme & Co.: 7914 Einträge aus MediathekView-Filmliste: 2963 Filme, 1443 Krimis, 30 Serien, 12667 Dokus, 569 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -19,20 +19,21 @@ Kategorien:
    30  EN | Film-Sender (Englisch)
    80  FILME | Neu
   115  FILME | Komödie
-  387  FILME | Liebe & Romantik
+  386  FILME | Liebe & Romantik
    51  FILME | Drama
    20  FILME | Thriller
+    8  FILME | Horror & Grusel
    39  FILME | Western
    11  FILME | Historie & Biografie
-    9  FILME | Familie
-  339  FILME | A–C
-  478  FILME | D–F
-  379  FILME | G–I
+   10  FILME | Familie
+  341  FILME | A–C
+  477  FILME | D–F
+  382  FILME | G–I
   383  FILME | J–L
   281  FILME | M–O
   470  FILME | P–S
-  628  FILME | T–Z & 0–9
-  465  KRIMIS | Tatort
+  629  FILME | T–Z & 0–9
+  464  KRIMIS | Tatort
    74  KRIMIS | Polizeiruf 110
    21  KRIMIS | Der Bozen-Krimi
    17  KRIMIS | Der Kroatien-Krimi
@@ -44,9 +45,9 @@ Kategorien:
    22  KRIMIS | Helen Dorn
    28  KRIMIS | Mankells Wallander
    24  KRIMIS | München Mord
-   29  KRIMIS | Nord bei Nordwest
-   56  KRIMIS | Wilsberg
-  587  KRIMIS | Weitere Krimis
+   28  KRIMIS | Nord bei Nordwest
+   55  KRIMIS | Wilsberg
+  585  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -86,9 +87,9 @@ Kategorien:
    60  SERIEN | Tiere bis unters Dach
    60  SERIEN | WaPo Bodensee
    89  DE | Regional
-   30  TR | Regional
+   31  TR | Regional
     8  DE | Religion
     6  TR | Religion
 
 Meldungen:
-717123 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+717105 Mediathek-Einträge gelesen (MediathekView-Filmliste)

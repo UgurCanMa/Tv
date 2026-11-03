@@ -1,6 +1,6 @@
-Stand: 2026-11-02 11:26 UTC
+Stand: 2026-11-03 11:02 UTC
 Live: 372 Sender (neu gebaut)
-Filme & Co.: 7909 Einträge aus MediathekView-Filmliste: 2958 Filme, 1447 Krimis, 30 Serien, 12640 Dokus, 586 Kinderfilme
+Filme & Co.: 7915 Einträge aus MediathekView-Filmliste: 2958 Filme, 1452 Krimis, 30 Serien, 12627 Dokus, 588 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -18,27 +18,27 @@ Kategorien:
     2  TR | Doku
    30  EN | Film-Sender (Englisch)
    80  FILME | Neu
-  113  FILME | Komödie
-  385  FILME | Liebe & Romantik
+  112  FILME | Komödie
+  386  FILME | Liebe & Romantik
    51  FILME | Drama
    20  FILME | Thriller
     9  FILME | Horror & Grusel
    38  FILME | Western
    11  FILME | Historie & Biografie
-    9  FILME | Familie
-  340  FILME | A–C
-  476  FILME | D–F
+   10  FILME | Familie
+  341  FILME | A–C
+  477  FILME | D–F
   382  FILME | G–I
-  383  FILME | J–L
-  282  FILME | M–O
-  470  FILME | P–S
-  625  FILME | T–Z & 0–9
-  463  KRIMIS | Tatort
-   75  KRIMIS | Polizeiruf 110
-   21  KRIMIS | Der Bozen-Krimi
+  382  FILME | J–L
+  279  FILME | M–O
+  471  FILME | P–S
+  626  FILME | T–Z & 0–9
+  464  KRIMIS | Tatort
+   77  KRIMIS | Polizeiruf 110
+   22  KRIMIS | Der Bozen-Krimi
    35  KRIMIS | Der Usedom-Krimi
    21  KRIMIS | Der Zürich-Krimi
-   25  KRIMIS | Die Toten vom Bodensee
+   24  KRIMIS | Die Toten vom Bodensee
    18  KRIMIS | Donna Leon
    26  KRIMIS | Friesland
    22  KRIMIS | Helen Dorn
@@ -47,7 +47,7 @@ Kategorien:
    28  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
    55  KRIMIS | Wilsberg
-  586  KRIMIS | Weitere Krimis
+  588  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-716742 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+717000 Mediathek-Einträge gelesen (MediathekView-Filmliste)

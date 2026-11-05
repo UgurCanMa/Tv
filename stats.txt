@@ -1,6 +1,6 @@
-Stand: 2026-11-04 11:11 UTC
+Stand: 2026-11-05 11:11 UTC
 Live: 371 Sender (neu gebaut)
-Filme & Co.: 7927 Einträge aus MediathekView-Filmliste: 2967 Filme, 1452 Krimis, 30 Serien, 12743 Dokus, 584 Kinderfilme
+Filme & Co.: 7920 Einträge aus MediathekView-Filmliste: 2963 Filme, 1450 Krimis, 30 Serien, 12715 Dokus, 578 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -19,22 +19,22 @@ Kategorien:
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
   113  FILME | Komödie
-  384  FILME | Liebe & Romantik
-   52  FILME | Drama
+  382  FILME | Liebe & Romantik
+   53  FILME | Drama
    22  FILME | Thriller
     9  FILME | Horror & Grusel
    39  FILME | Western
    11  FILME | Historie & Biografie
    10  FILME | Familie
   341  FILME | A–C
-  477  FILME | D–F
+  475  FILME | D–F
   386  FILME | G–I
-  381  FILME | J–L
-  280  FILME | M–O
-  475  FILME | P–S
+  382  FILME | J–L
+  278  FILME | M–O
+  474  FILME | P–S
   627  FILME | T–Z & 0–9
-  466  KRIMIS | Tatort
-   75  KRIMIS | Polizeiruf 110
+  463  KRIMIS | Tatort
+   74  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
    35  KRIMIS | Der Usedom-Krimi
    21  KRIMIS | Der Zürich-Krimi
@@ -44,10 +44,10 @@ Kategorien:
    22  KRIMIS | Helen Dorn
    28  KRIMIS | Mankells Wallander
    24  KRIMIS | München Mord
-   28  KRIMIS | Nord bei Nordwest
+   27  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
-   55  KRIMIS | Wilsberg
-  588  KRIMIS | Weitere Krimis
+   56  KRIMIS | Wilsberg
+  590  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-714972 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+714039 Mediathek-Einträge gelesen (MediathekView-Filmliste)

@@ -1,6 +1,6 @@
-Stand: 2026-11-05 11:11 UTC
-Live: 371 Sender (neu gebaut)
-Filme & Co.: 7920 Einträge aus MediathekView-Filmliste: 2963 Filme, 1450 Krimis, 30 Serien, 12715 Dokus, 578 Kinderfilme
+Stand: 2026-11-06 11:09 UTC
+Live: 370 Sender (neu gebaut)
+Filme & Co.: 7914 Einträge aus MediathekView-Filmliste: 2960 Filme, 1449 Krimis, 30 Serien, 12724 Dokus, 579 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -11,43 +11,43 @@ Kategorien:
     9  DE | Kinder
    20  DE | Musik
    16  TR | Hauptsender
-   16  TR | Nachrichten
+   15  TR | Nachrichten
     5  TR | Sport
     9  TR | Kinder
    13  TR | Musik
     2  TR | Doku
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
-  113  FILME | Komödie
+  112  FILME | Komödie
   382  FILME | Liebe & Romantik
    53  FILME | Drama
    22  FILME | Thriller
     9  FILME | Horror & Grusel
    39  FILME | Western
    11  FILME | Historie & Biografie
-   10  FILME | Familie
+    9  FILME | Familie
   341  FILME | A–C
-  475  FILME | D–F
-  386  FILME | G–I
+  474  FILME | D–F
+  388  FILME | G–I
   382  FILME | J–L
-  278  FILME | M–O
-  474  FILME | P–S
-  627  FILME | T–Z & 0–9
-  463  KRIMIS | Tatort
+  280  FILME | M–O
+  471  FILME | P–S
+  624  FILME | T–Z & 0–9
+  462  KRIMIS | Tatort
    74  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
-   35  KRIMIS | Der Usedom-Krimi
+   36  KRIMIS | Der Usedom-Krimi
    21  KRIMIS | Der Zürich-Krimi
    24  KRIMIS | Die Toten vom Bodensee
    18  KRIMIS | Donna Leon
    26  KRIMIS | Friesland
    22  KRIMIS | Helen Dorn
-   28  KRIMIS | Mankells Wallander
+   29  KRIMIS | Mankells Wallander
    24  KRIMIS | München Mord
    27  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
    56  KRIMIS | Wilsberg
-  590  KRIMIS | Weitere Krimis
+  588  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-714039 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+713441 Mediathek-Einträge gelesen (MediathekView-Filmliste)

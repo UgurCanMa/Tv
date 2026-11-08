@@ -1,6 +1,6 @@
-Stand: 2026-11-07 10:27 UTC
+Stand: 2026-11-08 10:34 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7924 Einträge aus MediathekView-Filmliste: 2969 Filme, 1445 Krimis, 30 Serien, 12712 Dokus, 581 Kinderfilme
+Filme & Co.: 7947 Einträge aus MediathekView-Filmliste: 2988 Filme, 1447 Krimis, 30 Serien, 12703 Dokus, 581 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -20,34 +20,34 @@ Kategorien:
    80  FILME | Neu
   113  FILME | Komödie
   384  FILME | Liebe & Romantik
-   54  FILME | Drama
+   55  FILME | Drama
    22  FILME | Thriller
     9  FILME | Horror & Grusel
    39  FILME | Western
    11  FILME | Historie & Biografie
-   10  FILME | Familie
-  341  FILME | A–C
+   11  FILME | Familie
+  343  FILME | A–C
   473  FILME | D–F
-  389  FILME | G–I
-  384  FILME | J–L
-  282  FILME | M–O
-  473  FILME | P–S
-  627  FILME | T–Z & 0–9
-  462  KRIMIS | Tatort
+  390  FILME | G–I
+  390  FILME | J–L
+  283  FILME | M–O
+  477  FILME | P–S
+  632  FILME | T–Z & 0–9
+  463  KRIMIS | Tatort
    74  KRIMIS | Polizeiruf 110
    21  KRIMIS | Der Bozen-Krimi
    36  KRIMIS | Der Usedom-Krimi
    21  KRIMIS | Der Zürich-Krimi
-   24  KRIMIS | Die Toten vom Bodensee
+   23  KRIMIS | Die Toten vom Bodensee
    18  KRIMIS | Donna Leon
    26  KRIMIS | Friesland
    22  KRIMIS | Helen Dorn
    29  KRIMIS | Mankells Wallander
    24  KRIMIS | München Mord
-   27  KRIMIS | Nord bei Nordwest
+   28  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
    56  KRIMIS | Wilsberg
-  585  KRIMIS | Weitere Krimis
+  586  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-712836 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+711956 Mediathek-Einträge gelesen (MediathekView-Filmliste)

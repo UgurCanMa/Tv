@@ -1,6 +1,6 @@
-Stand: 2026-11-08 10:34 UTC
+Stand: 2026-11-09 11:50 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7947 Einträge aus MediathekView-Filmliste: 2988 Filme, 1447 Krimis, 30 Serien, 12703 Dokus, 581 Kinderfilme
+Filme & Co.: 7945 Einträge aus MediathekView-Filmliste: 2985 Filme, 1447 Krimis, 30 Serien, 12687 Dokus, 585 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -19,21 +19,21 @@ Kategorien:
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
   113  FILME | Komödie
-  384  FILME | Liebe & Romantik
+  385  FILME | Liebe & Romantik
    55  FILME | Drama
    22  FILME | Thriller
     9  FILME | Horror & Grusel
    39  FILME | Western
    11  FILME | Historie & Biografie
    11  FILME | Familie
-  343  FILME | A–C
-  473  FILME | D–F
-  390  FILME | G–I
+  345  FILME | A–C
+  475  FILME | D–F
+  387  FILME | G–I
   390  FILME | J–L
   283  FILME | M–O
-  477  FILME | P–S
-  632  FILME | T–Z & 0–9
-  463  KRIMIS | Tatort
+  476  FILME | P–S
+  629  FILME | T–Z & 0–9
+  464  KRIMIS | Tatort
    74  KRIMIS | Polizeiruf 110
    21  KRIMIS | Der Bozen-Krimi
    36  KRIMIS | Der Usedom-Krimi
@@ -46,7 +46,7 @@ Kategorien:
    24  KRIMIS | München Mord
    28  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
-   56  KRIMIS | Wilsberg
+   55  KRIMIS | Wilsberg
   586  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
@@ -61,7 +61,6 @@ Kategorien:
    60  SERIEN | Bettys Diagnose
    60  SERIEN | Bianca - Wege zum Glück
    60  SERIEN | Dahoam is Dahoam
-   60  SERIEN | Death in Paradise
    60  SERIEN | Durch die Wildnis
    60  SERIEN | Ermittler!
    60  SERIEN | Die Fallers
@@ -85,6 +84,7 @@ Kategorien:
    60  SERIEN | Sturm der Liebe
    60  SERIEN | Tierärztin Dr. Mertens
    60  SERIEN | Tiere bis unters Dach
+   60  SERIEN | Verrückt nach Meer
    60  SERIEN | WaPo Bodensee
    89  DE | Regional
    31  TR | Regional
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-711956 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+711572 Mediathek-Einträge gelesen (MediathekView-Filmliste)

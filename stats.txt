@@ -1,6 +1,6 @@
-Stand: 2026-11-09 11:50 UTC
+Stand: 2026-11-10 11:25 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7945 Einträge aus MediathekView-Filmliste: 2985 Filme, 1447 Krimis, 30 Serien, 12687 Dokus, 585 Kinderfilme
+Filme & Co.: 7954 Einträge aus MediathekView-Filmliste: 2987 Filme, 1453 Krimis, 30 Serien, 12690 Dokus, 581 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -18,24 +18,24 @@ Kategorien:
     2  TR | Doku
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
-  113  FILME | Komödie
-  385  FILME | Liebe & Romantik
-   55  FILME | Drama
+  114  FILME | Komödie
+  384  FILME | Liebe & Romantik
+   56  FILME | Drama
    22  FILME | Thriller
     9  FILME | Horror & Grusel
-   39  FILME | Western
+   40  FILME | Western
    11  FILME | Historie & Biografie
-   11  FILME | Familie
-  345  FILME | A–C
-  475  FILME | D–F
+   10  FILME | Familie
+  347  FILME | A–C
+  473  FILME | D–F
   387  FILME | G–I
   390  FILME | J–L
-  283  FILME | M–O
+  281  FILME | M–O
   476  FILME | P–S
-  629  FILME | T–Z & 0–9
+  633  FILME | T–Z & 0–9
   464  KRIMIS | Tatort
-   74  KRIMIS | Polizeiruf 110
-   21  KRIMIS | Der Bozen-Krimi
+   76  KRIMIS | Polizeiruf 110
+   22  KRIMIS | Der Bozen-Krimi
    36  KRIMIS | Der Usedom-Krimi
    21  KRIMIS | Der Zürich-Krimi
    23  KRIMIS | Die Toten vom Bodensee
@@ -47,7 +47,7 @@ Kategorien:
    28  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
    55  KRIMIS | Wilsberg
-  586  KRIMIS | Weitere Krimis
+  589  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -82,9 +82,9 @@ Kategorien:
    60  SERIEN | SOKO Stuttgart
    60  SERIEN | SOKO Wismar
    60  SERIEN | Sturm der Liebe
+   60  SERIEN | This Is Us - Das ist Leben
    60  SERIEN | Tierärztin Dr. Mertens
    60  SERIEN | Tiere bis unters Dach
-   60  SERIEN | Verrückt nach Meer
    60  SERIEN | WaPo Bodensee
    89  DE | Regional
    31  TR | Regional
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-711572 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+711954 Mediathek-Einträge gelesen (MediathekView-Filmliste)

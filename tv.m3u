@@ -472,8 +472,16 @@ https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
 https://jmp2.uk/plu-5d4bdb635ce813b38639e6a3.m3u8
 #EXTINF:-1 tvg-id="Runtime.us@SD" tvg-name="Runtime" tvg-logo="https://i.imgur.com/2USCMvP.png" group-title="EN | Film-Sender (Englisch)",Runtime
 https://jmp2.uk/plu-6086d3f420fc8500075f8dbf.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Trapps Sommer" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Neu",Trapps Sommer
+https://ctv-videos.daserste.de/int/2025/07/04/cb3f4ea1-4577-481a-bfce-b743fc85765d/JOB_551043__sendeton_1920x1080-50p-5000kbit.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Honecker und der Pastor" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | Neu",Honecker und der Pastor
+https://nrodlzdf-a.akamaihd.net/dach/zdf/22/03/220321_2015_sendung_fdw/4/220321_2015_sendung_fdw_a1a2_3360k_p36v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Die kleinen und die großen Lügen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="FILME | Neu",Die kleinen und die großen Lügen
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/b1af3d1f-c876-463a-8b51-a469e3c920e7/de/XQ+KS+CHEV1/126954-000-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Verliebte Diebe" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Neu",Verliebte Diebe
 https://ctv-videos.daserste.de/int/2022/01/06/ecc92d2b-84ad-4061-98b6-eed6cbf947f8/JOB_546287__sendeton_1920x1080-50p-5000kbit.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Die Glasbläserin" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | Neu",Die Glasbläserin
+https://nrodlzdf-a.akamaihd.net/dach/zdf/16/12/161212_sendung_fdw/8/161212_sendung_fdw_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Mary Higgins Clark - Mysteriöse Verbrechen – Folge 2: Weil deine Augen ihn nicht sehen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/onehd.png" group-title="FILME | Neu",Mary Higgins Clark - Mysteriöse Verbrechen – Folge 2: Weil deine Augen ihn nicht sehen
 https://wdr-progressive.ard-mcdn.de/media/p/public/de/2026/11/03/7b21c459-6cbe-47fd-bc5b-d650c6c3fc01/7b21c459-6cbe-47fd-bc5b-d650c6c3fc01_AVC-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Die stillen Mörder" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Neu",Die stillen Mörder
@@ -620,18 +628,10 @@ https://ctv-videos.daserste.de/int/2025/05/20/23a82458-1c7f-4bc5-afd5-089b12865b
 https://ctv-videos.daserste.de/int/2025/08/10/DEGSM176858/DEGSM176858_3406343_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Coming Out" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rbbhd.png" group-title="FILME | Neu",Coming Out
 https://rbb-progressive.ard-mcdn.de/content-de/83/0e/830e775e-4afe-475d-a070-730ee176de97/830e775e-4afe-475d-a070-730ee176de97_hd1080-avc1080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Banditen!" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Neu",Banditen!
-https://ctv-videos.daserste.de/de/2026/10/12/DEGSM684967/DEGSM684967_29198_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Das kann doch unseren Willi nicht erschüttern" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Neu",Das kann doch unseren Willi nicht erschüttern
 https://ctv-videos.daserste.de/de/2026/10/12/2230/2230_29251_sendeton_1920x1080-50p-5000kbit.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Das kann doch unsren Willi nicht erschüttern" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="FILME | Neu",Das kann doch unsren Willi nicht erschüttern
-https://swr-pd.ard-mcdn.de/swr/geo/de/video/film/2050466.avc-1080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Rockballaden" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png" group-title="FILME | Neu",Rockballaden
-https://ndr-progressive.ard-mcdn.de/progressive/2026/1106/TV-20261106-1819-3800.1080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Drei Mann in einem Boot" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="FILME | Neu",Drei Mann in einem Boot
-https://swr-pd.ard-mcdn.de/swrfernsehen/geo/de/film/2167352.xxl.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Nur mit dir zusammen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | Neu",Nur mit dir zusammen
-https://nrodlzdf-a.akamaihd.net/none/3sat/26/11/261107_nur_mit_dir_zusammen_mit_ad_fernsehfilm/1/261107_nur_mit_dir_zusammen_mit_ad_fernsehfilm_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banditen!" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Neu",Banditen!
+https://ctv-videos.daserste.de/de/2026/10/12/DEGSM684967/DEGSM684967_29198_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="1001 Nacht in Tegernbrunn" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png" group-title="FILME | Komödie",1001 Nacht in Tegernbrunn
 https://cdn-storage.br.de/MUJIuUOVBwQIbtC2uKJDM6OhuLnC_2rc5U1S/_-9S/5-4y5yNc/6149af88ce4111e38a90984be10adece_HD.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Ach du lieber Gott" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png" group-title="FILME | Komödie",Ach du lieber Gott
@@ -1842,6 +1842,8 @@ https://ctv-videos.daserste.de/int/2023/04/19/d3631388-d75f-4ea0-9d95-343c8a875e
 https://nrodlzdf-a.akamaihd.net/none/zdf/19/04/190407_2015_sendung_sof/7/190407_2015_sendung_sof_a1a2_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Gar kein Geld macht auch nicht glücklich" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | Western",Gar kein Geld macht auch nicht glücklich
 https://nrodlzdf-a.akamaihd.net/none/zdf/25/12/251208_2015_sendung_fdw/1/251208_2015_sendung_fdw_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Die Glasbläserin" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | Western",Die Glasbläserin
+https://nrodlzdf-a.akamaihd.net/dach/zdf/16/12/161212_sendung_fdw/8/161212_sendung_fdw_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Göttinnen weißblau" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png" group-title="FILME | Western",Göttinnen weißblau
 https://cdn-storage.br.de/b7/2016-11/20/34955910af6211e68a90984be10adece_HD.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Die Hannas" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | Western",Die Hannas
@@ -2910,8 +2912,8 @@ https://pdvideosdaserste-a.akamaihd.net/int/2020/12/10/f59843c1-9648-4d7a-9489-4
 https://swr-pd.ard-mcdn.de/swrfernsehen/geo/de/film/2167352.xxl.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Drei Männer im Schnee" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | D–F",Drei Männer im Schnee
 https://pdodswr-a.akamaihd.net/swrfernsehen/geo/de/film/1779370.xxl.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Die drei Musketiere - D'Artagnan" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | D–F",Die drei Musketiere - D'Artagnan
-https://nrodlzdf-a.akamaihd.net/dach/zdf/25/12/251228_2200_sendung_spf/4/251228_2200_sendung_spf_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Die drei Musketiere - D'Artagnan (Französisch)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | D–F",Die drei Musketiere - D'Artagnan (Französisch)
+https://nrodlzdf-a.akamaihd.net/dach/zdf/25/12/251228_2200_sendung_spf/4/251228_2200_sendung_spf_a3a4_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Drei schräge Vögel" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | D–F",Drei schräge Vögel
 https://rodlzdf-a.akamaihd.net/none/3sat/19/08/190804_dreischraegevoegel/1/190804_dreischraegevoegel_3296k_p15v13.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Die drei Tage des Condor" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | D–F",Die drei Tage des Condor
@@ -3678,6 +3680,8 @@ https://nrodlzdf-a.akamaihd.net/dach/3sat/24/11/241103_sony_ghostbusters_ii_spie
 https://ctv-videos.daserste.de/de/2026/10/10/DEGSM302051/DEGSM302051_3871062_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Die Gipfelstürmerin" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | G–I",Die Gipfelstürmerin
 https://pd-videos.daserste.de/int/2024/09/23/9b5fac33-fdde-4d46-b37a-a908fa7607fd/JOB_564423__sendeton_1920x1080-50p-5000kbit.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Die Glasbläserin" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | G–I",Die Glasbläserin
+https://nrodlzdf-a.akamaihd.net/dach/zdf/16/12/161212_sendung_fdw/8/161212_sendung_fdw_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der gläserne Turm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | G–I",Der gläserne Turm
 https://rodlzdf-a.akamaihd.net/dach/3sat/21/05/210509_der_glaeserne_turm_spielfilm/2/210509_der_glaeserne_turm_spielfilm_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Das Glaszimmer" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | G–I",Das Glaszimmer
@@ -4004,8 +4008,8 @@ https://nrodlzdf-a.akamaihd.net/dach/3sat/23/04/230414_die_hoelle_spielfilm/1/23
 https://nrodlzdf-a.akamaihd.net/none/zdf/20/04/200410_1600_sendung_fis/5/200410_1600_sendung_fis_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Homo Faber" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | G–I",Homo Faber
 https://nrodlzdf-a.akamaihd.net/dach/3sat/19/07/190714_homofaber/3/190714_homofaber_3328k_p36v13.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Honecker und der Pastor" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | G–I",Honecker und der Pastor
-https://nrodlzdf-a.akamaihd.net/dach/3sat/22/11/221119_honecker_und_der_pastor_pp/1/221119_honecker_und_der_pastor_pp_a1a2_3360k_p36v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Honecker und der Pastor" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | G–I",Honecker und der Pastor
+https://nrodlzdf-a.akamaihd.net/dach/zdf/22/03/220321_2015_sendung_fdw/4/220321_2015_sendung_fdw_a1a2_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Honigfrauen (1/3) - Urlaub im Paradies (E01)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | G–I",Honigfrauen (1/3) - Urlaub im Paradies (E01)
 https://nrodlzdf-a.akamaihd.net/none/3sat/18/10/181003_honigfrauen1_hof_online/9/181003_honigfrauen1_hof_online_3328k_p36v13.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Honigfrauen (2/3) - Verrat im Paradies (E02)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | G–I",Honigfrauen (2/3) - Verrat im Paradies (E02)
@@ -4646,6 +4650,8 @@ https://ctv-videos.daserste.de/de/2026/10/13/DEGSM272486/DEGSM272486_29354_sende
 https://rodlzdf-a.akamaihd.net/de/tivi/19/08/190815_kleiner_wichtel_kfi/2/190815_kleiner_wichtel_kfi_3328k_p36v14.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der kleine Wichtel kehrt zurück" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | J–L",Der kleine Wichtel kehrt zurück
 https://rodlzdf-a.akamaihd.net/de/tivi/19/08/190815_kleiner_wichtel_zurueck_kfi/2/190815_kleiner_wichtel_zurueck_kfi_3328k_p36v14.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Die kleinen und die großen Lügen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="FILME | J–L",Die kleinen und die großen Lügen
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/b1af3d1f-c876-463a-8b51-a469e3c920e7/de/XQ+KS+CHEV1/126954-000-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Klima retten für Anfänger" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | J–L",Klima retten für Anfänger
 https://ctv-videos.daserste.de/int/2022/12/22/3a91a3ba-d086-4b9f-9adc-56ba73e6d485/JOB_525006__sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Klondike" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | J–L",Klondike
@@ -6888,6 +6894,8 @@ https://nrodlzdf-a.akamaihd.net/de/zdf/26/01/260128_2015_sendung_tvs/1/260128_20
 https://arteptweb-a.akamaihd.net/am/ptweb/070000/070700/070745-000-A_SQ_0_VOA_11025114_MP4-2200_AMM-PTWEB-40322460303500_2pQjzRgm7R.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tragikomödie Schlussklappe" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/srhd.png" group-title="FILME | T–Z & 0–9",Tragikomödie Schlussklappe
 https://srstorage01-a.akamaihd.net/Video/GeoDE/SWRDEBUET-241128-103054_H.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Trapps Sommer" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | T–Z & 0–9",Trapps Sommer
+https://ctv-videos.daserste.de/int/2025/07/04/cb3f4ea1-4577-481a-bfce-b743fc85765d/JOB_551043__sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der Traum ihres Lebens" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | T–Z & 0–9",Der Traum ihres Lebens
 https://ctv-videos.daserste.de/int/2024/11/19/DEGSM923656/DEGSM923656_3128105_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der Traum vom Süden" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | T–Z & 0–9",Der Traum vom Süden
@@ -7130,6 +7138,8 @@ https://pd-videos.daserste.de/dach/2021/12/14/3ef36a43-33dc-481e-85a1-1dbb93baa3
 https://pd-videos.daserste.de/dach/2023/12/14/32d7f3ff-775d-4578-9de1-cd8b1ae4c469/JOB_421684_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Um Himmels willen – Weihnachten unter Palmen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | T–Z & 0–9",Um Himmels willen – Weihnachten unter Palmen
 https://nrodlzdf-a.akamaihd.net/dach/3sat/24/12/241207_um_himmels_willen_fernsehfilm/1/241207_um_himmels_willen_fernsehfilm_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Unaufhaltsam" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | T–Z & 0–9",Unaufhaltsam
+https://nrodlzdf-a.akamaihd.net/de/zdf/26/09/260911_0245_sendung_spf/1/260911_0245_sendung_spf_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der Unbestechliche - Mörderisches Marseille" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | T–Z & 0–9",Der Unbestechliche - Mörderisches Marseille
 https://nrodlzdf-a.akamaihd.net/dach/3sat/21/05/210516_der_unbestechliche_ad_spielfilm/2/210516_der_unbestechliche_ad_spielfilm_a1a2_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Die Unbestechlichen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | T–Z & 0–9",Die Unbestechlichen
@@ -7414,6 +7424,8 @@ https://ctv-videos.daserste.de/int/2023/04/05/8f3f7fbc-f059-4d5a-99bb-757fc227b9
 https://nrodlzdf-a.akamaihd.net/dach/3sat/19/02/190219_vitus_online/6/190219_vitus_online_3328k_p36v13.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Viva Forever" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="FILME | T–Z & 0–9",Viva Forever
 https://nrodlzdf-a.akamaihd.net/dach/zdf/22/08/220811_2325_sendung_dks/3/220811_2325_sendung_dks_3360k_p36v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Voll verschleiert" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="FILME | T–Z & 0–9",Voll verschleiert
+https://nrodlzdf-a.akamaihd.net/dach/3sat/26/11/261114_voll_verschleiert_spielfilm/1/261114_voll_verschleiert_spielfilm_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Vollweib sucht Halbtagsmann" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="FILME | T–Z & 0–9",Vollweib sucht Halbtagsmann
 https://ctv-videos.daserste.de/int/2020/08/20/172ec7e0-352a-4984-b5b2-278316a00ed0/JOB_519952__sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/srhd.png" group-title="FILME | T–Z & 0–9",Vom Lokführer, der die Liebe suchte
@@ -8428,8 +8440,6 @@ https://wdr-progressive.ard-mcdn.de/medp/ondemand/weltweit/fsk12/323/3230196/323
 https://mdr-progressive.ard-mcdn.de/mdr/video/weltweit/2022/02/12/mdrde-c517fa7a-987d-48d4-9b68-5d14eb20b437.avc1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tatort – Rhythm and Love (2021)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png" group-title="KRIMIS | Tatort",Tatort – Rhythm and Love (2021)
 https://wdr-progressive.ard-mcdn.de/medp/ondemand/weltweit/fsk12/311/3115790/3115790_57363892.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Tatort – Risiken mit Nebenwirkungen (Schwyzerdütsch mit Untertitel)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Tatort",Tatort – Risiken mit Nebenwirkungen (Schwyzerdütsch mit Untertitel)
-https://pdvideosdaserste-a.akamaihd.net/de/2022/09/05/5108e5a4-b0fb-4f14-b933-62666482d00c/JOB_179568_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tatort – Romeo und Julia" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="KRIMIS | Tatort",Tatort – Romeo und Julia
 https://swr-pd.ard-mcdn.de/swr/video/tatort/2320827.avc-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tatort – Roomservice" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="KRIMIS | Tatort",Tatort – Roomservice
@@ -8814,6 +8824,8 @@ https://pdodswr-a.akamaihd.net/swrfernsehen/tatort/1909967.xxl.mp4
 https://pdodswr-a.akamaihd.net/swrfernsehen/tatort/1884482.xxl.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tatort: Rebland" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="KRIMIS | Tatort",Tatort: Rebland
 https://pdodswr-a.akamaihd.net/swrfernsehen/tatort/2208913.avc-1080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tatort: Risiken mit Nebenwirkungen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Tatort",Tatort: Risiken mit Nebenwirkungen
+https://ctv-videos.daserste.de/int/2026/10/12/DEGSM618972/DEGSM618972_29246_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tatort: Saarbrücken an einem Montag" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/srhd.png" group-title="KRIMIS | Tatort",Tatort: Saarbrücken an einem Montag
 https://srstorage01-a.akamaihd.net/Video/FS/Upload_Video/1607678701_Tatort_Saarbruecken_an_einem_Montag_P.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Tatort: Salü Palu" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/srhd.png" group-title="KRIMIS | Tatort",Tatort: Salü Palu
@@ -9150,6 +9162,8 @@ https://pdodswr-a.akamaihd.net/swrfernsehen/krimi-und-thriller/1916348.xxl.mp4
 https://ctv-videos.daserste.de/int/2025/02/17/84450caa-330e-4267-a844-790f9daa1d81/JOB_557245__sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der Usedom-Krimi – Wunschkind (30)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Der Usedom-Krimi",Der Usedom-Krimi – Wunschkind (30)
 https://ctv-videos.daserste.de/dach/2026/10/19/DEGSM254126/DEGSM254126_3897164_sendeton_1920x1080-50p-5000kbit.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Der Zürich-Krimi – Borchert und der eisige Tod" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Der Zürich-Krimi",Der Zürich-Krimi – Borchert und der eisige Tod
+https://ctv-videos.daserste.de/int/2026/06/26/DEGSM507934/DEGSM507934_20502_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der Zürich-Krimi – Borchert und der fatale Irrtum" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Der Zürich-Krimi",Der Zürich-Krimi – Borchert und der fatale Irrtum
 https://ctv-videos.daserste.de/int/2021/08/09/6f80c84e-9cef-43e2-bc1a-02ae9626ac61/JOB_539694__sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Der Zürich-Krimi – Borchert und der Mord im Taxi" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Der Zürich-Krimi",Der Zürich-Krimi – Borchert und der Mord im Taxi
@@ -9324,6 +9338,8 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/18/02/180210_2015_sendung_fri/8/180210_
 https://nrodlzdf-a.akamaihd.net/none/zdf/24/01/240124_2015_sendung_fri/1/240124_2015_sendung_fri_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Friesland – Sturmmöwen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="KRIMIS | Friesland",Friesland – Sturmmöwen
 https://nrodlzdf-a.akamaihd.net/none/zdf/24/12/241221_2015_sendung_fri/1/241221_2015_sendung_fri_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Friesland – Tief im Dreck" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="KRIMIS | Friesland",Friesland – Tief im Dreck
+https://nrodlzdf-a.akamaihd.net/none/zdf/25/10/251011_2015_sendung_fri/1/251011_2015_sendung_fri_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Friesland – Unter der Oberfläche" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="KRIMIS | Friesland",Friesland – Unter der Oberfläche
 https://nrodlzdf-a.akamaihd.net/none/zdf/22/01/220122_2015_sendung_fri/4/220122_2015_sendung_fri_a1a2_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Helen Dorn – Adrenalin" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="KRIMIS | Helen Dorn",Helen Dorn – Adrenalin
@@ -10864,6 +10880,8 @@ https://ctv-videos.daserste.de/int/2026/04/21/DEGMT272509/DEGMT272509_3731112_se
 https://ctv-videos.daserste.de/int/2026/04/21/DEGMT272508/DEGMT272508_3731105_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Zorn – Vom Lieben und Sterben" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="KRIMIS | Weitere Krimis",Zorn – Vom Lieben und Sterben
 https://ctv-videos.daserste.de/int/2026/07/16/DEGSM923889/DEGSM923889_21936_sendeton_1920x1080-50p-5000kbit.mp4
+#EXTINF:-1 tvg-id="" tvg-name="2. Die Reise" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kika.png" group-title="KINDER | Filme & Märchen",2. Die Reise
+https://ndr-progressive.ard-mcdn.de/progressive_geo/2022/1219/TV-20221219-1157-0200.1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Beutolomäus kommt zum Weihnachtsmann" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kika.png" group-title="KINDER | Filme & Märchen",Beutolomäus kommt zum Weihnachtsmann
 https://kika-progressive.ard-mcdn.de/kika_de-prod/online/mp4dyn/c/FCMS-c8ad21f4-5978-43e8-920f-12461124ce9b-087bde46997e_c8.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Die Hexenprinzessin" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="KINDER | Filme & Märchen",Die Hexenprinzessin
@@ -11162,8 +11180,12 @@ https://swr-pd.ard-mcdn.de/kindernetz/sendungen/tigerenten-club/2317889.avc-1080
 https://rbb-progressive.ard-mcdn.de/content/15/66/15662ac4-5c43-4535-8ac6-6c592175b552/15662ac4-5c43-4535-8ac6-6c592175b552_hd1080-avc1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Into the Beat - Dein Herz tanzt" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kika.png" group-title="KINDER | Filme & Märchen",Into the Beat - Dein Herz tanzt
 http://tvdlzdf-a.akamaihd.net/dach/tivi/22/01/220112_into_the_beat_kfi/5/220112_into_the_beat_kfi_a1a2_3360k_p36v15.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Märchen in der ARD – Der Prinz im Bärenfell" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rbbhd.png" group-title="KINDER | Filme & Märchen",Märchen in der ARD – Der Prinz im Bärenfell
-https://rbb-progressive.ard-mcdn.de/content/0a/a0/0aa035ab-d1bd-4b68-aff2-8fb0103bdecb/0aa035ab-d1bd-4b68-aff2-8fb0103bdecb_hd1080-avc1080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Leben anderswo – GEO Reportage - Italien: Die Igel-Retter aus dem Piemont" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Leben anderswo – GEO Reportage - Italien: Die Igel-Retter aus dem Piemont
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/b76d0f80-7f39-4ca4-8e2a-3fe665959bfa/de/XQ+KS+CHEV1/101139-011-F.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Natur und Tiere – Golf von Kalifornien - Mystischer Golf" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Natur und Tiere – Golf von Kalifornien - Mystischer Golf
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/73121248-c8c0-4b93-88d1-d80211f589dd/de/XQ+KS+CHEV1/104473-004-A.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Natur und Tiere – Golf von Kalifornien - Die Wiege des Golfes" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Entdeckung der Welt - Natur und Tiere – Golf von Kalifornien - Die Wiege des Golfes
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/c80e0653-09c2-43be-affb-a00ec10b91ff/de/XQ+KS+CHEV1/104473-003-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NANO Doku: Waldbrände: Leben mit dem Feuer" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="DOKUS | Natur & Tiere",NANO Doku: Waldbrände: Leben mit dem Feuer
 https://nrodlzdf-a.akamaihd.net/none/3sat/26/11/261112_nano_doku_sendung_waldbrand_ndk/1/261112_nano_doku_sendung_waldbrand_ndk_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Länder - Menschen - Abenteuer – Tasmanien - Australiens grüne Insel" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png" group-title="DOKUS | Natur & Tiere",Länder - Menschen - Abenteuer – Tasmanien - Australiens grüne Insel
@@ -11398,14 +11420,10 @@ https://nrodlzdf-a.akamaihd.net/none/phoenix/24/04/240429_phx_erdevulkane_logo/1
 https://arteptweb-a.akamaihd.net/am/ptweb/100000/100200/100223-005-A_SQ_0_VA-STMA_11572620_MP4-2200_AMM-PTWEB-101144129615642_15kOW5.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Eis" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Eis
 https://arteptweb-a.akamaihd.net/am/ptweb/100000/100200/100223-004-A_SQ_0_VA-STA_11572558_MP4-2200_AMM-PTWEB-101135238590065_hU0uA15kMK4.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Wüsten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Wüsten
-https://arteptweb-a.akamaihd.net/am/ptweb/100000/100200/100223-003-A_SQ_0_VA-STMA_11572514_MP4-2200_AMM-PTWEB-101144116583056_1yW9PZ15kMFS.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Inseln" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Inseln
-https://arteptweb-a.akamaihd.net/am/ptweb/100000/100200/100223-002-A_SQ_0_VA-STMA_11572449_MP4-2200_AMM-PTWEB-101144116655930_2KMew515kLlA.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Unsere Erde" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Natur & Tiere",Wissenschaft - Umwelt und Natur – Tierische (R)Evolution - Unsere Erde
-https://arteptweb-a.akamaihd.net/am/ptweb/100000/100200/100223-001-A_SQ_0_VA-STA_11572387_MP4-2200_AMM-PTWEB-101135214578376_15kLZN.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – Stadt Land Kunst Spezial - Costa Rica" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Geschichte",Kultur und Pop - Kunst – Stadt Land Kunst Spezial - Costa Rica
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/214fcebb-b70f-4ac4-bb94-e559df0c158f/de/XQ+KS+CHEV1/129047-032-A.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ABBA - Die ganze Geschichte" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Geschichte",ABBA - Die ganze Geschichte
+https://nrodlzdf-a.akamaihd.net/none/phoenix/diverse/abba___die_ganze_geschichte_logo/1/abba___die_ganze_geschichte_logo_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Junger Dokumentarfilm: Primadonna or nothing - Ein Leben für die Oper" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/swrhd.png" group-title="DOKUS | Geschichte",Junger Dokumentarfilm: Primadonna or nothing - Ein Leben für die Oper
 https://swr-pd.ard-mcdn.de/swr/video/junger-dokumentarfilm/2360609.avc-1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Geschichte - Das 20. Jahrhundert – Monsieur Mercedes - Im Schatten des Sterns" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Geschichte",Geschichte - Das 20. Jahrhundert – Monsieur Mercedes - Im Schatten des Sterns
@@ -11642,8 +11660,6 @@ https://ndr-progressive.ard-mcdn.de/progressive_geo_dach/2025/1223/TV-20251223-1
 https://arteptweb-a.akamaihd.net/am/ptweb/132000/132600/132677-000-A_SQ_0_VA-STA_11535021_MP4-2200_AMM-PTWEB-60782759451521_10TX1t.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Re: Auf der Route der türkischen Gastarbeiter" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Geschichte",Re: Auf der Route der türkischen Gastarbeiter
 https://arteptweb-a.akamaihd.net/am/ptweb/130000/130400/130406-013-A_SQ_0_VOA-STMA_11589475_MP4-2200_AMM-PTWEB-101224411505104_1xrYpG169VFj.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Geschichte - Das 20. Jahrhundert – Babylon Prag (2/2) - Ein Sturm zieht auf" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Geschichte",Geschichte - Das 20. Jahrhundert – Babylon Prag (2/2) - Ein Sturm zieht auf
-https://arteptweb-a.akamaihd.net/am/ptweb/123000/123800/123892-002-A_SQ_0_VOA-STA_11580649_MP4-2200_AMM-PTWEB-101224303614120_1YdUOy15wwgT.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Aktuelles und Gesellschaft - Hintergrund – 28 Minuten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Wissen & Technik",Aktuelles und Gesellschaft - Hintergrund – 28 Minuten
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/51beb93d-a1fa-4bd9-9060-4a97d80c23e2/de/XQ+KS+CHEV1/115078-192-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Quarks – Die Macht des Mikrobioms · Was unser Darm leistet" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/wdrhd.png" group-title="DOKUS | Wissen & Technik",Quarks – Die Macht des Mikrobioms · Was unser Darm leistet
@@ -11893,7 +11909,7 @@ https://manifest-arte.akamaized.net/api/manifest/v1/Generate/41a008f6-8172-45e3-
 #EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – Stadt Land Kunst - Schweden / Tunesien / Paris" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Reisen & Länder",Kultur und Pop - Kunst – Stadt Land Kunst - Schweden / Tunesien / Paris
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/e21afd93-93e0-45c1-8f0a-a3ebe1e67a6b/de/XQ+KS+CHEV1/129054-028-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Brandenburg - Straßen der Einheit" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rbbhd.png" group-title="DOKUS | Reisen & Länder",Brandenburg - Straßen der Einheit
-https://rbb-progressive.ard-mcdn.de/content/bf/69/bf695dea-bc85-46cb-967c-7ec415d5edc2/bf695dea-bc85-46cb-967c-7ec415d5edc2_hd1080-avc1080.mp4
+https://rbb-progressive.ard-mcdn.de/content/e1/8d/e18d6b03-e4c1-4f7c-82fb-7c02251963d2/e18d6b03-e4c1-4f7c-82fb-7c02251963d2_hd1080-avc1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – Stadt Land Kunst - Bologna / Burgund / England" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Reisen & Länder",Kultur und Pop - Kunst – Stadt Land Kunst - Bologna / Burgund / England
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/0a37e788-ad5e-41bf-92a8-1ae226ba6764/de/XQ+KS+CHEV1/129054-027-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – Stadt Land Kunst - Thailand / Kapverden / Vereinigte Staaten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Reisen & Länder",Kultur und Pop - Kunst – Stadt Land Kunst - Thailand / Kapverden / Vereinigte Staaten
@@ -12364,6 +12380,12 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/22/06/220626_inside_interpol_inf/1/2206
 https://nrodlzdf-a.akamaihd.net/none/zdf/22/06/220626_inside_interpol_inf/1/220626_inside_interpol_inf_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="ZDFinfo Doku – Countdown to Murder: Der Fall Janet Scott" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="DOKUS | True Crime",ZDFinfo Doku – Countdown to Murder: Der Fall Janet Scott
 https://nrodlzdf-a.akamaihd.net/de/zdf/22/05/220512_countdown_to_murder_janet_scott_inf/1/220512_countdown_to_murder_janet_scott_inf_3360k_p36v15.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Leben anderswo – GEO Reportage - Myanmars Bambusbrücke: Ein Dorf packt an!" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Entdeckung der Welt - Leben anderswo – GEO Reportage - Myanmars Bambusbrücke: Ein Dorf packt an!
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/93b8b432-77ac-403f-a101-0b8c43c82fd3/de/XQ+KS+CHEV1/072418-001-A.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Aktuelles und Gesellschaft - Hintergrund – 28 Minuten - Multilateralismus / Sozialkonferenz in Frankreich: Die Rolle der Gewerkschaften (09.11.2026)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Aktuelles und Gesellschaft - Hintergrund – 28 Minuten - Multilateralismus / Sozialkonferenz in Frankreich: Die Rolle der Gewerkschaften (09.11.2026)
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/01fdc480-3faf-4cbd-bb2a-87a00aed0b24/de/XQ+KS+CHEV1/115078-193-A.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Re: Champions der Lüfte - Die WM der Ballonpiloten" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Re: Champions der Lüfte - Die WM der Ballonpiloten
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/40046917-df23-48f2-af85-40b12fc28643/de/XQ+KS+CHEV1/129973-015-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Re: Die verlassenen Kinder des Westbalkans" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Re: Die verlassenen Kinder des Westbalkans
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/ad1e72b1-dfcc-46ec-89fb-8537e871d91b/de/XQ+KS+CHEV1/127405-011-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Aktuelles und Gesellschaft - Hintergrund – 28 Minuten - Das Ende des Trumpismus / Soziale Unzufriedenheit / Livret A (06.11.2026)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Aktuelles und Gesellschaft - Hintergrund – 28 Minuten - Das Ende des Trumpismus / Soziale Unzufriedenheit / Livret A (06.11.2026)
@@ -12598,14 +12620,18 @@ https://hr-progressive.ard-mcdn.de/odinson/dokus-and-reportagen/SVID-C23CC724-0E
 https://arteptweb-a.akamaihd.net/am/ptweb/099000/099700/099722-000-A_SQ_0_VOA-STA_11483724_MP4-2200_AMM-PTWEB-101124238656557_oy3NYzBJXb.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Ostseereport – Glück auf Finnisch - Eine Spurensuche" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png" group-title="DOKUS | Gesellschaft & Politik",Ostseereport – Glück auf Finnisch - Eine Spurensuche
 https://ndr-progressive.ard-mcdn.de/progressive/2026/0904/TV-20260904-1233-1700.1080.mp4
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Entdeckung der Welt - Leben anderswo – 360° Reportage - Kukeri, die Geisterjäger von Bulgarien
-https://arteptweb-a.akamaihd.net/am/ptweb/130000/130000/130066-005-F_SQ_0_VOA_11458374_MP4-2200_AMM-PTWEB-80962866492000_tyEDc.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Leben anderswo – 360° Reportage - Tempo und Leidenschaft: Argentiniens Polo-Spielerinnen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Gesellschaft & Politik",Entdeckung der Welt - Leben anderswo – 360° Reportage - Tempo und Leidenschaft: Argentiniens Polo-Spielerinnen
-https://arteptweb-a.akamaihd.net/am/ptweb/106000/106200/106265-010-F_SQ_0_VOA_11458028_MP4-2200_AMM-PTWEB-80882975426100_tyE3t.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Politik und Gesellschaft – Uwes Weg zum selbstbestimmten Sterben" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="DOKUS | Gesellschaft & Politik",Politik und Gesellschaft – Uwes Weg zum selbstbestimmten Sterben
-https://nrodlzdf-a.akamaihd.net/none/3sat/26/09/260904_diagnose_als_uwes_weg_zum_selbstbestimmten_sterben_sbpug/1/260904_diagnose_als_uwes_weg_zum_selbstbestimmten_sterben_sbpug_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Popkultur – Klaus Nomi - Sänger der dritten Art" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Kultur und Pop - Popkultur – Klaus Nomi - Sänger der dritten Art
+https://manifest-arte.akamaized.net/api/manifest/v1/Generate/0b16b379-5baf-45de-a79f-db62705cb2ba/de/XQ+KS+CHEV1/128081-000-A.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NANO – Doku: Game of Drones - Was fliegt da am Himmel?" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/3sat.png" group-title="DOKUS | Weitere Dokus",NANO – Doku: Game of Drones - Was fliegt da am Himmel?
+https://nrodlzdf-a.akamaihd.net/none/3sat/26/11/261113_doku_games_nano/1/261113_doku_games_nano_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="alpha-doku – Im Südburgenland" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ardalpha.png" group-title="DOKUS | Weitere Dokus",alpha-doku – Im Südburgenland
+https://cdn-storage.br.de/geo/b7/2026-11/13/f095b962-df85-11f1-a101-02420a000526_HD.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mitten in Deutschland: NSU - Die Opfer: Vergesst mich nicht" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Mitten in Deutschland: NSU - Die Opfer: Vergesst mich nicht
+https://nrodlzdf-a.akamaihd.net/none/phoenix/26/11/261113_phx_nsu_dieopfer_versuch2_logo/1/261113_phx_nsu_dieopfer_versuch2_logo_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Entdeckung der Welt - Kulinarik – Zu Tisch mit Lucie - Kitchen Hacks - Brot" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Entdeckung der Welt - Kulinarik – Zu Tisch mit Lucie - Kitchen Hacks - Brot
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/00736cb1-e8c6-4737-a4bf-91362fd5ffca/de/XQ+KS+CHEV1/122153-021-A.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Mitten in Deutschland: NSU - Die Ermittler - Nur für den Dienstgebrauch" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Mitten in Deutschland: NSU - Die Ermittler - Nur für den Dienstgebrauch
+https://nrodlzdf-a.akamaihd.net/none/phoenix/26/10/261030_phx_nsuermittler_logo/1/261030_phx_nsuermittler_logo_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – 'Der Widersacher' von Emmanuel Carrère - Der Schriftsteller und der Mörder" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Kultur und Pop - Kunst – 'Der Widersacher' von Emmanuel Carrère - Der Schriftsteller und der Mörder
 https://manifest-arte.akamaized.net/api/manifest/v1/Generate/a26bd534-e0ae-4d8b-ba91-867958aa066e/de/XQ+KS+CHEV1/117755-000-A.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Die Auftaktveranstaltung zur ARD-Doku 'Geheimsache Doping: Kinder' im Re-Live" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="DOKUS | Weitere Dokus",Die Auftaktveranstaltung zur ARD-Doku 'Geheimsache Doping: Kinder' im Re-Live
@@ -12834,16 +12860,6 @@ https://nrodlzdf-a.akamaihd.net/dach/phoenix/diverse/eli_sharabi___491_tage_geis
 https://arteptweb-a.akamaihd.net/am/ptweb/126000/126400/126457-106-A_SQ_0_VA-STA_11580799_MP4-2200_AMM-PTWEB-101223731663560_15wwWi.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Hélène Hubys Wettlauf ins All - Ganz nach oben" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="DOKUS | Weitere Dokus",Hélène Hubys Wettlauf ins All - Ganz nach oben
 https://swr-pd.ard-mcdn.de/swr/video/dokumentarfilm/2354758.avc-1080.mp4
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/brhd.png" group-title="DOKUS | Weitere Dokus",Schwaben + Altbayern – Firefit Meisterschaften, Schildkröten-Züchter und mehr
-https://cdn-storage.br.de/86/2d/862d7fb5-e43a-454a-a68a-7e471d30b0cf/862d7fb5-e43a-454a-a68a-7e471d30b0cf_HD.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Kunst – Der Schatz von Assisi" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Kultur und Pop - Kunst – Der Schatz von Assisi
-https://arteptweb-a.akamaihd.net/am/ptweb/128000/128800/128813-000-A_SQ_0_VA-STA_11572782_MP4-2200_AMM-PTWEB-101224370531020_15kLT3.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Kultur und Pop - Popkultur – Legendäre Liebespaare des Kinos: Elizabeth Taylor und Richard Burton" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/artehd.png" group-title="DOKUS | Weitere Dokus",Kultur und Pop - Popkultur – Legendäre Liebespaare des Kinos: Elizabeth Taylor und Richard Burton
-https://arteptweb-a.akamaihd.net/am/ptweb/120000/120800/120834-000-F_SQ_0_VA-STA_11353949_MP4-2200_AMM-PTWEB-60751239449760_n0Jde.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Die wilden Flüsse Afrikas - Hoanib" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Die wilden Flüsse Afrikas - Hoanib
-https://nrodlzdf-a.akamaihd.net/none/phoenix/25/07/250711_phx_doku_fluesse_afrikas_hoanib_korrekte_version_logo/1/250711_phx_doku_fluesse_afrikas_hoanib_korrekte_version_logo_3328k_p15v15.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Die wilden Flüsse Afrikas - Sambesi" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/phoenix.png" group-title="DOKUS | Weitere Dokus",Die wilden Flüsse Afrikas - Sambesi
-https://nrodlzdf-a.akamaihd.net/none/phoenix/25/08/250805_phx_sambesiafrika_logo/1/250805_phx_sambesiafrika_logo_3328k_p15v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S11 E04 – Lebensangst (2)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Der Bergdoktor",S11 E04 – Lebensangst (2)
 https://nrodlzdf-a.akamaihd.net/none/zdf/21/08/210807_1925_sendung_dbd/5/210807_1925_sendung_dbd_a1a2_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S11 E05 – Versehrte Seelen (1)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Der Bergdoktor",S11 E05 – Versehrte Seelen (1)
@@ -13084,8 +13100,6 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/25/04/250425_0045_sendung_dbw/1/250425_
 https://nrodlzdf-a.akamaihd.net/none/zdf/25/04/250425_0300_sendung_dbw/1/250425_0300_sendung_dbw_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S15 E06 – Späte Reue (1)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Die Bergretter",S15 E06 – Späte Reue (1)
 https://nrodlzdf-a.akamaihd.net/none/zdf/25/04/250426_0300_sendung_dbw/1/250426_0300_sendung_dbw_a1a2_6660k_p37v17.mp4
-#EXTINF:-1 tvg-id="" tvg-name="S10 E22 – Wenn zwei sich lieben" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bettys Diagnose",S10 E22 – Wenn zwei sich lieben
-https://nrodlzdf-a.akamaihd.net/none/zdf/24/02/240223_1925_sendung_bet/1/240223_1925_sendung_bet_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S10 E23 – Befreiungsschlag" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bettys Diagnose",S10 E23 – Befreiungsschlag
 https://nrodlzdf-a.akamaihd.net/none/zdf/24/03/240301_1925_sendung_bet/3/240301_1925_sendung_bet_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S10 E24 – Ein neues Leben" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bettys Diagnose",S10 E24 – Ein neues Leben
@@ -13204,6 +13218,8 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261023_1925_sendung_bet/1/261023_
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261030_1925_sendung_bet/1/261030_1925_sendung_bet_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S13 E07 – Zu viele Lügen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bettys Diagnose",S13 E07 – Zu viele Lügen
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/11/261106_1925_sendung_bet/4/261106_1925_sendung_bet_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="S13 E08 – Die Glücksformel" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bettys Diagnose",S13 E08 – Die Glücksformel
+https://nrodlzdf-a.akamaihd.net/none/zdf/26/11/261113_1925_sendung_bet/1/261113_1925_sendung_bet_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S01 E165 – Kapitel 165" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bianca - Wege zum Glück",S01 E165 – Kapitel 165
 https://nrodlzdf-a.akamaihd.net/none/zdf/23/04/230401_1054_sendung_bwg/1/230401_1054_sendung_bwg_3360k_p36v15.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S01 E166 – Kapitel 166" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | Bianca - Wege zum Glück",S01 E166 – Kapitel 166
@@ -14284,8 +14300,6 @@ https://ndr-progressive.ard-mcdn.de/progressive/2026/1013/TV-20261013-1526-5900.
 https://ndr-progressive.ard-mcdn.de/progressive/2026/1022/TV-20261022-1446-3400.1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S39 E01 – Folge 527: Unter Schock" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ndrhd.png" group-title="SERIEN | Großstadtrevier",S39 E01 – Folge 527: Unter Schock
 https://ndr-progressive.ard-mcdn.de/progressive/2026/1030/TV-20261030-1414-1400.1080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="S28 E06 – Folge 1094: Sachzwänge" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S28 E06 – Folge 1094: Sachzwänge
-https://odmdr-a.akamaihd.net/mp4dyn2/1/FCMS-14187161-a408-47f4-a8df-471f7c375acd-557cadc3dbd7_14.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S28 E07 – Folge 1095: Schwingungen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S28 E07 – Folge 1095: Schwingungen
 https://odmdr-a.akamaihd.net/mp4dyn2/f/FCMS-f6b90482-00ee-46ec-aff0-7ed236dc1f09-557cadc3dbd7_f6.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S28 E08 – Folge 1096: Brief aus der Vergangenheit" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S28 E08 – Folge 1096: Brief aus der Vergangenheit
@@ -14390,6 +14404,8 @@ https://mdr-progressive.ard-mcdn.de/mdr/video/weltweit/2026/08/12/mdrde-5dd2111a
 https://mdr-progressive.ard-mcdn.de/mdr/video/weltweit/2026/08/29/mdrde-80cb7e71-7542-4fe5-b253-22bd93d69134.avc1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S29 E17 – Folge 1147: Eins gegen eins" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S29 E17 – Folge 1147: Eins gegen eins
 https://mdr-progressive.ard-mcdn.de/mdr/video/weltweit/2026/09/29/mdrde-51bc6b71-b785-40fe-b2bb-f77fa2109e20.avc1080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="S29 E18 – Folge 1148: Nicht weit vom Stamm" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S29 E18 – Folge 1148: Nicht weit vom Stamm
+https://mdr-progressive.ard-mcdn.de/mdr/video/weltweit/2026/09/11/mdrde-82da2fef-361e-4b88-91d0-4cc76ebf5e8c.avc1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S29 E19 – Folge 1149: Am Limit" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S29 E19 – Folge 1149: Am Limit
 https://mdr-progressive.ard-mcdn.de/mdr/video/weltweit/2026/09/20/mdrde-4713a64f-4b26-489a-b55e-539a06760ea5.avc1080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S29 E20 – Folge 1150: Ein wahrer Freund" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/mdrhd.png" group-title="SERIEN | In aller Freundschaft",S29 E20 – Folge 1150: Ein wahrer Freund
@@ -15484,8 +15500,6 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/19/12/191230_s06_f10_nierenspende_dsk/8
 https://nrodlzdf-a.akamaihd.net/none/zdf/19/12/191230_s06_f11_transplantation_dsk/8/191230_s06_f11_transplantation_dsk_3328k_p36v14.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S06 E12 – Hochzeit mit Hindernissen" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfneohd.png" group-title="SERIEN | Die Schwarzwaldklinik",S06 E12 – Hochzeit mit Hindernissen
 https://nrodlzdf-a.akamaihd.net/none/zdf/19/12/191230_s06_f12_hochzeitmithindernissen_dsk/8/191230_s06_f12_hochzeitmithindernissen_dsk_3328k_p36v14.mp4
-#EXTINF:-1 tvg-id="" tvg-name="S22 E17 – Verrannt (1)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Leipzig",S22 E17 – Verrannt (1)
-https://nrodlzdf-a.akamaihd.net/none/zdf/26/06/260612_2115_sendung_sok4/1/260612_2115_sendung_sok4_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S22 E18 – Mutprobe (1)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Leipzig",S22 E18 – Mutprobe (1)
 https://nrodlzdf-a.akamaihd.net/none/zdf/22/01/220114_2115_sendung_sok4/1/220114_2115_sendung_sok4_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S22 E19 – Mutprobe (2)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Leipzig",S22 E19 – Mutprobe (2)
@@ -15604,6 +15618,8 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261016_2115_sendung_sok4/1/261016
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261030_2115_sendung_sok4/1/261030_2115_sendung_sok4_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S27 E05 – Die Passion Christi" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Leipzig",S27 E05 – Die Passion Christi
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/11/261106_2115_sendung_sok4/1/261106_2115_sendung_sok4_a1a2_6660k_p37v17.mp4
+#EXTINF:-1 tvg-id="" tvg-name="S27 E06 – Zeitenwende" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Leipzig",S27 E06 – Zeitenwende
+https://nrodlzdf-a.akamaihd.net/none/zdf/26/11/261113_2115_sendung_sok4/1/261113_2115_sendung_sok4_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S14 E15 – Blutiges Wiedersehen (1)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Stuttgart",S14 E15 – Blutiges Wiedersehen (1)
 https://nrodlzdf-a.akamaihd.net/none/zdf/23/01/230119_1800_sendung_sok8/1/230119_1800_sendung_sok8_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S14 E16 – Blutiges Wiedersehen (2)" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Stuttgart",S14 E16 – Blutiges Wiedersehen (2)
@@ -15844,8 +15860,6 @@ https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261021_1800_sendung_sok7/1/261021
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/10/261028_1800_sendung_sok7/1/261028_1800_sendung_sok7_a1a2_6660k_p37v17.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S23 E06 – Das Salz in der Suppe" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfhd.png" group-title="SERIEN | SOKO Wismar",S23 E06 – Das Salz in der Suppe
 https://nrodlzdf-a.akamaihd.net/none/zdf/26/11/261111_1800_sendung_sok7/1/261111_1800_sendung_sok7_a1a2_6660k_p37v17.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Folge 4614" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="SERIEN | Sturm der Liebe",Folge 4614
-https://ctv-videos.daserste.de/int/2026/08/21/DEGSM186987/DEGSM186987_3826189_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Folge 4615" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="SERIEN | Sturm der Liebe",Folge 4615
 https://ctv-videos.daserste.de/int/2026/08/24/DEGSM186988/DEGSM186988_3826203_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Folge 4616" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="SERIEN | Sturm der Liebe",Folge 4616
@@ -15962,6 +15976,8 @@ https://ctv-videos.daserste.de/int/2026/11/09/DEGSM197727/DEGSM197727_3896700_se
 https://ctv-videos.daserste.de/int/2026/11/10/DEGSM197728/DEGSM197728_3896717_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Folge 4672" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="SERIEN | Sturm der Liebe",Folge 4672
 https://ctv-videos.daserste.de/int/2026/11/11/DEGSM197729/DEGSM197729_3896722_sendeton_1920x1080-50p-5000kbit.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Folge 4673" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="SERIEN | Sturm der Liebe",Folge 4673
+https://ctv-videos.daserste.de/int/2026/11/12/DEGSM197730/DEGSM197730_3896726_sendeton_1920x1080-50p-5000kbit.mp4
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/daserstehd.png" group-title="SERIEN | Sturm der Liebe",S01 E01 – 'Sturm der Liebe', (2005): Wie alles begann
 https://pdvideosdaserste-a.akamaihd.net/int/2016/07/21/621d9402-dbb8-4edc-90ed-ca6a30ca5fed/512-1_741816.mp4
 #EXTINF:-1 tvg-id="" tvg-name="S03 E09 – Anfang oder Ende" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/zdfneohd.png" group-title="SERIEN | This Is Us - Das ist Leben",S03 E09 – Anfang oder Ende

@@ -1,6 +1,6 @@
-Stand: 2026-11-13 11:14 UTC
+Stand: 2026-11-14 10:40 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7986 Einträge aus MediathekView-Filmliste: 3008 Filme, 1457 Krimis, 30 Serien, 12701 Dokus, 574 Kinderfilme
+Filme & Co.: 7994 Einträge aus MediathekView-Filmliste: 3013 Filme, 1459 Krimis, 30 Serien, 12720 Dokus, 578 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -23,24 +23,24 @@ Kategorien:
    56  FILME | Drama
    22  FILME | Thriller
     8  FILME | Horror & Grusel
-   41  FILME | Western
+   42  FILME | Western
    11  FILME | Historie & Biografie
    10  FILME | Familie
   349  FILME | A–C
   473  FILME | D–F
-  390  FILME | G–I
-  391  FILME | J–L
+  391  FILME | G–I
+  392  FILME | J–L
   284  FILME | M–O
   480  FILME | P–S
-  641  FILME | T–Z & 0–9
+  644  FILME | T–Z & 0–9
   465  KRIMIS | Tatort
    75  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
    36  KRIMIS | Der Usedom-Krimi
-   21  KRIMIS | Der Zürich-Krimi
+   22  KRIMIS | Der Zürich-Krimi
    23  KRIMIS | Die Toten vom Bodensee
    18  KRIMIS | Donna Leon
-   26  KRIMIS | Friesland
+   27  KRIMIS | Friesland
    22  KRIMIS | Helen Dorn
    29  KRIMIS | Mankells Wallander
    24  KRIMIS | München Mord
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-712820 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+713967 Mediathek-Einträge gelesen (MediathekView-Filmliste)

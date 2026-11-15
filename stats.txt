@@ -1,6 +1,6 @@
-Stand: 2026-11-14 10:40 UTC
+Stand: 2026-11-15 11:13 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7994 Einträge aus MediathekView-Filmliste: 3013 Filme, 1459 Krimis, 30 Serien, 12720 Dokus, 578 Kinderfilme
+Filme & Co.: 7997 Einträge aus MediathekView-Filmliste: 3021 Filme, 1454 Krimis, 30 Serien, 12665 Dokus, 579 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -18,26 +18,26 @@ Kategorien:
     2  TR | Doku
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
-  114  FILME | Komödie
+  113  FILME | Komödie
   391  FILME | Liebe & Romantik
    56  FILME | Drama
-   22  FILME | Thriller
-    8  FILME | Horror & Grusel
+   23  FILME | Thriller
+    9  FILME | Horror & Grusel
    42  FILME | Western
    11  FILME | Historie & Biografie
-   10  FILME | Familie
-  349  FILME | A–C
-  473  FILME | D–F
-  391  FILME | G–I
-  392  FILME | J–L
-  284  FILME | M–O
-  480  FILME | P–S
+    9  FILME | Familie
+  350  FILME | A–C
+  472  FILME | D–F
+  392  FILME | G–I
+  395  FILME | J–L
+  286  FILME | M–O
+  482  FILME | P–S
   644  FILME | T–Z & 0–9
   465  KRIMIS | Tatort
-   75  KRIMIS | Polizeiruf 110
+   74  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
-   36  KRIMIS | Der Usedom-Krimi
-   22  KRIMIS | Der Zürich-Krimi
+   37  KRIMIS | Der Usedom-Krimi
+   23  KRIMIS | Der Zürich-Krimi
    23  KRIMIS | Die Toten vom Bodensee
    18  KRIMIS | Donna Leon
    27  KRIMIS | Friesland
@@ -46,8 +46,8 @@ Kategorien:
    24  KRIMIS | München Mord
    28  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
-   56  KRIMIS | Wilsberg
-  592  KRIMIS | Weitere Krimis
+   55  KRIMIS | Wilsberg
+  587  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-713967 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+712681 Mediathek-Einträge gelesen (MediathekView-Filmliste)

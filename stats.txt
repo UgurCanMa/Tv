@@ -1,6 +1,6 @@
-Stand: 2026-11-18 11:56 UTC
+Stand: 2026-11-19 11:53 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7984 Einträge aus MediathekView-Filmliste: 3003 Filme, 1461 Krimis, 30 Serien, 12773 Dokus, 577 Kinderfilme
+Filme & Co.: 7993 Einträge aus MediathekView-Filmliste: 3010 Filme, 1461 Krimis, 30 Serien, 12751 Dokus, 578 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -20,21 +20,21 @@ Kategorien:
    80  FILME | Neu
   109  FILME | Komödie
   396  FILME | Liebe & Romantik
-   56  FILME | Drama
+   57  FILME | Drama
    22  FILME | Thriller
     9  FILME | Horror & Grusel
-   40  FILME | Western
+   41  FILME | Western
    11  FILME | Historie & Biografie
     9  FILME | Familie
-  350  FILME | A–C
-  464  FILME | D–F
+  351  FILME | A–C
+  468  FILME | D–F
   394  FILME | G–I
   388  FILME | J–L
   283  FILME | M–O
-  482  FILME | P–S
-  642  FILME | T–Z & 0–9
-  464  KRIMIS | Tatort
-   76  KRIMIS | Polizeiruf 110
+  483  FILME | P–S
+  643  FILME | T–Z & 0–9
+  463  KRIMIS | Tatort
+   75  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
    38  KRIMIS | Der Usedom-Krimi
    23  KRIMIS | Der Zürich-Krimi
@@ -46,8 +46,8 @@ Kategorien:
    24  KRIMIS | München Mord
    28  KRIMIS | Nord bei Nordwest
    18  KRIMIS | Stralsund
-   56  KRIMIS | Wilsberg
-  593  KRIMIS | Weitere Krimis
+   57  KRIMIS | Wilsberg
+  594  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-715272 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+715413 Mediathek-Einträge gelesen (MediathekView-Filmliste)

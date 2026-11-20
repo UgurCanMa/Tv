@@ -1,6 +1,6 @@
-Stand: 2026-11-19 11:53 UTC
+Stand: 2026-11-20 11:55 UTC
 Live: 370 Sender (neu gebaut)
-Filme & Co.: 7993 Einträge aus MediathekView-Filmliste: 3010 Filme, 1461 Krimis, 30 Serien, 12751 Dokus, 578 Kinderfilme
+Filme & Co.: 7985 Einträge aus MediathekView-Filmliste: 3007 Filme, 1459 Krimis, 30 Serien, 12746 Dokus, 577 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -18,22 +18,22 @@ Kategorien:
     2  TR | Doku
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
-  109  FILME | Komödie
-  396  FILME | Liebe & Romantik
-   57  FILME | Drama
-   22  FILME | Thriller
+  108  FILME | Komödie
+  395  FILME | Liebe & Romantik
+   56  FILME | Drama
+   21  FILME | Thriller
     9  FILME | Horror & Grusel
    41  FILME | Western
    11  FILME | Historie & Biografie
-    9  FILME | Familie
-  351  FILME | A–C
-  468  FILME | D–F
-  394  FILME | G–I
+   10  FILME | Familie
+  352  FILME | A–C
+  469  FILME | D–F
+  393  FILME | G–I
   388  FILME | J–L
-  283  FILME | M–O
-  483  FILME | P–S
+  282  FILME | M–O
+  480  FILME | P–S
   643  FILME | T–Z & 0–9
-  463  KRIMIS | Tatort
+  462  KRIMIS | Tatort
    75  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
    38  KRIMIS | Der Usedom-Krimi
@@ -42,12 +42,12 @@ Kategorien:
    18  KRIMIS | Donna Leon
    27  KRIMIS | Friesland
    22  KRIMIS | Helen Dorn
-   27  KRIMIS | Mankells Wallander
+   28  KRIMIS | Mankells Wallander
    24  KRIMIS | München Mord
    28  KRIMIS | Nord bei Nordwest
-   18  KRIMIS | Stralsund
+   17  KRIMIS | Stralsund
    57  KRIMIS | Wilsberg
-  594  KRIMIS | Weitere Krimis
+  593  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +92,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-715413 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+715747 Mediathek-Einträge gelesen (MediathekView-Filmliste)

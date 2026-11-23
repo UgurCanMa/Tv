@@ -1,6 +1,6 @@
-Stand: 2026-11-22 11:40 UTC
-Live: 363 Sender (neu gebaut)
-Filme & Co.: 8006 Einträge aus MediathekView-Filmliste: 3027 Filme, 1467 Krimis, 30 Serien, 12730 Dokus, 573 Kinderfilme
+Stand: 2026-11-23 13:13 UTC
+Live: 362 Sender (neu gebaut)
+Filme & Co.: 7995 Einträge aus MediathekView-Filmliste: 3028 Filme, 1466 Krimis, 30 Serien, 12759 Dokus, 578 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -14,26 +14,25 @@ Kategorien:
    15  TR | Nachrichten
     4  TR | Sport
     9  TR | Kinder
-   13  TR | Musik
+   12  TR | Musik
     2  TR | Doku
    29  EN | Film-Sender (Englisch)
    80  FILME | Neu
   106  FILME | Komödie
-  393  FILME | Liebe & Romantik
-   54  FILME | Drama
-   21  FILME | Thriller
-    8  FILME | Horror & Grusel
+  391  FILME | Liebe & Romantik
+   53  FILME | Drama
+   20  FILME | Thriller
    42  FILME | Western
-   11  FILME | Historie & Biografie
+   12  FILME | Historie & Biografie
     9  FILME | Familie
-  352  FILME | A–C
-  473  FILME | D–F
+  354  FILME | A–C
+  472  FILME | D–F
   395  FILME | G–I
-  386  FILME | J–L
-  283  FILME | M–O
-  486  FILME | P–S
-  652  FILME | T–Z & 0–9
-  463  KRIMIS | Tatort
+  384  FILME | J–L
+  285  FILME | M–O
+  487  FILME | P–S
+  651  FILME | T–Z & 0–9
+  465  KRIMIS | Tatort
    75  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
    39  KRIMIS | Der Usedom-Krimi
@@ -47,7 +46,7 @@ Kategorien:
    29  KRIMIS | Nord bei Nordwest
    17  KRIMIS | Stralsund
    56  KRIMIS | Wilsberg
-  598  KRIMIS | Weitere Krimis
+  595  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -92,4 +91,4 @@ Kategorien:
     6  TR | Religion
 
 Meldungen:
-715844 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+716080 Mediathek-Einträge gelesen (MediathekView-Filmliste)

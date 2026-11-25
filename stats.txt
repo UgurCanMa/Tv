@@ -1,6 +1,6 @@
-Stand: 2026-11-24 13:57 UTC
-Live: 362 Sender (neu gebaut)
-Filme & Co.: 8001 Einträge aus MediathekView-Filmliste: 3030 Filme, 1470 Krimis, 30 Serien, 12759 Dokus, 578 Kinderfilme
+Stand: 2026-11-25 13:12 UTC
+Live: 363 Sender (neu gebaut)
+Filme & Co.: 8008 Einträge aus MediathekView-Filmliste: 3036 Filme, 1471 Krimis, 30 Serien, 12777 Dokus, 579 Kinderfilme
 
 Kategorien:
    27  DE | ARD & ZDF
@@ -25,13 +25,13 @@ Kategorien:
    42  FILME | Western
    13  FILME | Historie & Biografie
     9  FILME | Familie
-  355  FILME | A–C
+  358  FILME | A–C
   475  FILME | D–F
   396  FILME | G–I
   384  FILME | J–L
-  284  FILME | M–O
-  486  FILME | P–S
-  650  FILME | T–Z & 0–9
+  286  FILME | M–O
+  485  FILME | P–S
+  652  FILME | T–Z & 0–9
   465  KRIMIS | Tatort
    75  KRIMIS | Polizeiruf 110
    22  KRIMIS | Der Bozen-Krimi
@@ -46,7 +46,7 @@ Kategorien:
    29  KRIMIS | Nord bei Nordwest
    17  KRIMIS | Stralsund
    56  KRIMIS | Wilsberg
-  599  KRIMIS | Weitere Krimis
+  600  KRIMIS | Weitere Krimis
   150  KINDER | Filme & Märchen
   120  DOKUS | Natur & Tiere
   120  DOKUS | Geschichte
@@ -86,9 +86,9 @@ Kategorien:
    60  SERIEN | Tiere bis unters Dach
    60  SERIEN | WaPo Bodensee
    89  DE | Regional
-   31  TR | Regional
+   32  TR | Regional
     8  DE | Religion
     6  TR | Religion
 
 Meldungen:
-716419 Mediathek-Einträge gelesen (MediathekView-Filmliste)
+716959 Mediathek-Einträge gelesen (MediathekView-Filmliste)
